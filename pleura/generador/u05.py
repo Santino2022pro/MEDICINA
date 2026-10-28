@@ -217,7 +217,7 @@ def seq_toraco(D):
     s = new(D, 'Toracocentesis', 'Análisis: qué aporta cada estudio', 'mesotelio', morph=True, src=['T4.1', 'P2.12'])
     step_badge(s, 8, TOT)
     for i, c in enumerate(('F7DC6F', 'E6B0AA', 'F9E79F')):
-        tube(s, 0.6 + i * 1.0, 1.1, 0.7, 2.4, c, None, 'clear', name='!!Frasco%d' % (i + 1))
+        tube(s, 0.6 + i * 1.0, 1.5, 0.7, 2.4, c, None, 'clear', name='!!Frasco%d' % (i + 1))
     rows = [['FRASCO', 'DETERMINACIONES (ver Unidades IX y X)'], ['Bacteriología', 'Gram · cultivo · BAAR'],
             ['Anatomía patológica', 'Citología (células malignas)'], ['Fisicoquímico', 'Proteínas y LDH (con valores séricos) · glucosa · pH · ADA · '
             'amilasa · triglicéridos · colesterol · recuento celular']]
@@ -229,7 +229,7 @@ def seq_toraco(D):
     # 9 interpretación
     s = new(D, 'Toracocentesis', 'Interpretación: del frasco al diagnóstico', 'mesotelio', morph=True, src=['T4.1', 'T4.2'])
     step_badge(s, 9, TOT)
-    res = flow(s, ['Fisicoquímico', 'Criterios de Light', '¿≥ 1 criterio positivo?'], 0.6, 1.0, 12.4, 1.3, [GOLD, CEL, WHITE], 16, 0.4)
+    res = flow(s, ['Fisicoquímico', 'Criterios de Light', '¿≥ 1 criterio positivo?'], 1.7, 1.0, 11.3, 1.3, [GOLD, CEL, WHITE], 16, 0.4)
     a = box(s, 0.6, 2.8, 6.0, 2.0, '**SÍ → EXUDADO**: buscar causa local con bacteriología, citología y parámetros (Unidad X).', C_EXUD, 16, name='Exudado ruta', bold=False)
     b = box(s, 7.0, 2.8, 6.0, 2.0, '**NO → TRASUDADO**: tratar la enfermedad sistémica de base.', C_FLUID, 16, name='Trasudado ruta', bold=False)
     n = box(s, 0.6, 5.1, 12.4, 1.85, 'La toracocentesis transforma un **síndrome** (derrame) en una **orientación etiológica**.', GREEN, 17, name='Síndrome a etiología')

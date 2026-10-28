@@ -769,7 +769,7 @@ class Deck:
             # títulos y numeración siempre al frente
             for el in list(s.tree):
                 c = el.find('.//{%s}cNvPr' % NS['p'])
-                if c is not None and c.get('name') in ('Título', 'Etiqueta sección', 'Número'):
+                if c is not None and c.get('name') in ('Título', 'Etiqueta sección', 'Número', '!!Paso'):
                     s.tree.remove(el); s.tree.append(el)
             clr = sld.find('{%s}clrMapOvr' % NS['p'])
             idx = list(sld).index(clr) + 1 if clr is not None else len(sld)

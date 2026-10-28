@@ -63,7 +63,7 @@ def seq_trasudado(D):
         if i >= 4:
             rows = [['PARÁMETRO', 'TRASUDADO'], ['Proteínas', 'Bajas'], ['LDH', 'Baja'], ['Células', 'Pocas; macrófagos']]
             ids, h = gtable(s, 8.2, 1.0, 4.8, rows, [1, 1.3], 15, head_fill=C_FLUID, name='!!TablaTrasudado')
-        if i >= 5:
+        if i == 5:
             t = tube(s, 8.4, 3.3, 1.0, 3.0, 'F7E7A6', 'Claro, seroso', 'clear', name='!!TuboTrasudado')
             c = chest(s, 9.9, 3.3, 3.1, 3.0, {'fluidR': 0.3, 'fluidL': 0.25}, names=False)
         if i == 4:
@@ -136,11 +136,11 @@ def comparacion(D):
             ('Lateralidad típica', 'Bilateral', 'Según el foco')]
     ids = []
     for i, (k, l, r) in enumerate(rows):
-        y = 1.0 + i * 0.95
+        y = 1.0 + i * 0.78
         g = s.group_start('Comparación ' + k)
-        box(s, 3.85, y, 1.85, 0.85, l, C_FLUID, 13, bold=False)
-        box(s, 5.75, y, 1.85, 0.85, smart_upper(k), WHITE, 12)
-        box(s, 7.65, y, 1.85, 0.85, r, C_EXUD, 12, bold=False)
+        box(s, 3.85, y, 1.85, 0.72, l, C_FLUID, 13, bold=False)
+        box(s, 5.75, y, 1.85, 0.72, smart_upper(k), WHITE, 12)
+        box(s, 7.65, y, 1.85, 0.72, r, C_EXUD, 12, bold=False)
         ids.append(s.group_end())
     w = box(s, 0.3, 5.75, 12.7, 1.2, 'Una causa sistémica puede generar un líquido **mixto**, y una pleura con trasudado no siempre es '
             '«absolutamente normal»: la clasificación es una **orientación**.', RED, 15, name='Advertencia comparación', bold=False)

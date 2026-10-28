@@ -317,7 +317,7 @@ def anat_tablas(D):
     s = new(D, 'Fisiología', 'Celularidad normal del líquido pleural', 'rosa', src=['T1.2'])
     bars = [('Macrófagos', 64, 80, '8E7CC3'), ('Linfocitos', 18, 36, '5DADE2'), ('Células mesoteliales', 0, 2, C_PARIETAL), ('PMN', 0, 3, 'F5B041')]
     gs = []
-    base_x = 3.6; scale = 0.075
+    base_x = 3.6; scale = 0.045
     s.shape(0.4, 1.0, 8.0, 5.1, 'rect', ('a', 'FFFFFF', 85), BORDER, False, name='Panel gráfico')
     label(s, 0.6, 1.1, 7.6, 0.45, 'Proporción del recuento (%)', 15)
     for i, (n_, a, b, c) in enumerate(bars):
@@ -326,7 +326,7 @@ def anat_tablas(D):
         label(s, 0.6, y, 2.9, 0.6, n_, 14, align='r')
         s.shape(base_x, y + 0.08, max(0.05, b * scale), 0.45, 'rect', ('a', c, 45), THIN, False)
         s.shape(base_x, y + 0.08, max(0.05, a * scale), 0.45, 'rect', c, THIN, False)
-        label(s, base_x + b * scale + 0.1, y, 1.5, 0.6, ('%d–%d %%' % (a, b)) if n_ != 'PMN' else 'pocos', 13, align='l')
+        label(s, base_x + b * scale + 0.1, y, 1.15, 0.6, ('%d–%d %%' % (a, b)) if n_ != 'PMN' else 'pocos', 13, align='l')
         gs.append(s.group_end())
     t = box(s, 8.7, 1.0, 4.3, 1.5, 'Leucocitos: **1.000 – 5.000/mm^{3}**', GOLD, 16, name='Recuento total')
     m = box(s, 8.7, 2.7, 4.3, 2.0, 'Predominio de **macrófagos**; los **PMN son escasos**. Un predominio distinto orienta a patología '

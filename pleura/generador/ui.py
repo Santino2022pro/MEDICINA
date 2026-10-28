@@ -105,7 +105,7 @@ def header(s, tag, ttl, tsize=24):
         sz -= 0.5
     one = text_w(plain(t), F_HEAD, True, sz) + 0.4 <= maxw
     w = min(max(text_w(plain(t), F_HEAD, True, sz) + 0.5, 4.5), maxw) if one else maxw
-    h = 0.64 if one else 0.98
+    h = 0.64 if one else 0.82
     x = SW - 0.18 - w
     return s.shape(x, 0.1, w, h, 'rect', PALE, BORDER, False, t, sz, F_HEAD, INK, True, 'c', 'm',
                    (0.12, 0.02, 0.12, 0.02), name='Título', minsize=16, lnspc=0.92)

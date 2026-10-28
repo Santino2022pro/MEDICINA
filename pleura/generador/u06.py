@@ -16,8 +16,8 @@ def div9(D):
 
 def light(D):
     s = new(D, 'Criterios de Light', 'Trasudado o exudado: los tres criterios', 'mesotelio', src=['T4.2', 'P2.11', 'T9.2'])
-    t1 = tube(s, 0.45, 1.05, 0.85, 2.6, 'F9E79F', 'Líquido pleural', 'clear', name='Muestra pleural')
-    t2 = tube(s, 1.95, 1.05, 0.85, 2.6, 'B03A2E', 'Sangre', 'clear', name='Muestra sangre')
+    t1 = tube(s, 0.4, 1.05, 0.85, 2.6, 'F9E79F', 'Líquido pleural', 'clear', name='Muestra pleural')
+    t2 = tube(s, 1.85, 1.05, 0.85, 2.6, 'B03A2E', 'Sangre', 'clear', name='Muestra sangre')
     cmp_ = s.shape(0.45, 4.25, 2.35, 0.9, 'rect', GOLD, BORDER, False, 'Proteínas y LDH:\n¿cuánto pasó al líquido?', 13, F_HEAD, INK,
                    True, 'c', 'm', name='Comparación', minsize=9)
     rows = [['CRITERIO', 'FÓRMULA', 'UMBRAL', 'RESULTADO', 'INTERPRETACIÓN'],
@@ -108,7 +108,7 @@ def aspecto(D):
 def gauge(s, x, y, h, lo, hi, marks, zones, title, unit, name):
     """escala vertical con zonas coloreadas y umbrales"""
     g = s.group_start(name)
-    label(s, x - 0.3, y - 0.45, 1.6, 0.4, title, 14)
+    label(s, x - 0.15, y - 0.45, 1.2, 0.4, title, 14)
     for a, b, c in zones:
         ya = y + h * (1 - (b - lo) / (hi - lo)); yb = y + h * (1 - (a - lo) / (hi - lo))
         s.shape(x, ya, 0.8, yb - ya, 'rect', c, THIN, False)

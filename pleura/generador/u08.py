@@ -233,9 +233,9 @@ def seq_tension(D):
             s.step(wipe(ar, 'r'), pulse(chips[0], after=True))
         if i == 2:
             g = s.group_start('Válvula')
-            box(s, 6.75, 4.75, 2.1, 1.15, 'INSPIRACIÓN: entra', LGREEN, 12)
+            box(s, 6.75, 4.78, 2.1, 0.58, 'INSPIRACIÓN: entra', LGREEN, 12)
             s.group_end()
-            v2 = box(s, 6.75, 4.75, 2.1, 1.15, 'ESPIRACIÓN: no sale', RED, 12, name='Válvula cerrada')
+            v2 = box(s, 6.75, 5.41, 2.1, 0.58, 'ESPIRACIÓN: no sale', RED, 12, name='Válvula cerrada')
             hx, hy = A['apexR']
             a1 = s.arrow([(hx + 0.3, hy + 0.6), (hx - 0.2, hy + 0.55)], '1E8449', 5, name='Entra')
             x1 = s.shape(hx - 0.05, hy + 0.35, 0.4, 0.4, 'mathMultiply', RED, (INK, 1), False, name='No sale')

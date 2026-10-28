@@ -33,7 +33,7 @@ def manometro(s, x, y, h, val, name='!!Manometro'):
         yy = y + h * (1 - (v + 1) / 2)
         s.arrow([(x - 0.12, yy), (x + 0.87, yy)], INK, 1.5, tail=None)
         label(s, x + 0.9, yy - 0.17, 0.9, 0.34, t, 13, align='l')
-    label(s, x - 0.35, y - 0.5, 1.6, 0.45, 'P. pleural', 14)
+    label(s, x - 0.35, y - 0.62, 1.6, 0.4, 'P. pleural', 14)
     s.group_end()
     yy = y + h * (1 - (val + 1) / 2)
     return s.shape(x - 0.3, yy - 0.16, 0.42, 0.32, 'rightArrow', INK, None, False, name='!!AgujaPresion')

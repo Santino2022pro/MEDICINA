@@ -88,7 +88,10 @@ def pleura_zoom(s, X, Y, W, H, st=None):
     A['nvb_pt'] = F.p(350, 290); A['rib_pt'] = F.p(230, 160); A['rib2'] = F.p(770, 160)
     A['upper_border'] = F.p(655, 222)   # borde superior (craneal) de la costilla inferior
     if st.get('axis'):
-        label(s, *F.p(10, 2), F.sx(980), F.sy(40), '◄ CRANEAL                                    CAUDAL ►', 11, '5D4037', name='Orientación')
+        g = s.group_start('Orientación')
+        label(s, *F.p(205, 4), F.sx(190), F.sy(36), '◄ CRANEAL', 11, '5D4037', bg=WHITE)
+        label(s, *F.p(805, 4), F.sx(190), F.sy(36), 'CAUDAL ►', 11, '5D4037', bg=WHITE)
+        s.group_end()
     # pleura parietal: tejido submesotelial + mesotelio
     gap = 22 + 330 * st.get('gap', 0)
     yP = 345
@@ -247,11 +250,11 @@ def starling(s, X, Y, W, H, st=None):
     pc = st.get('pc', 1); onc = st.get('onc', 1)
     show = st.get('show', set())
     if 'pc' in show:
-        A['f_pc'] = arrow_lbl(s, [F.p(300, 200), F.p(300, 520 + 60 * (pc - 1))], 'P_{c}', C_ART, 4 + 4 * pc, 24,
-                              lx=F.p(325, 0)[0], ly=F.p(0, 430)[1], lw=0.75, name='!!FlechaPc', lbg=WHITE)
+        A['f_pc'] = arrow_lbl(s, [F.p(300, 200), F.p(300, 520 + 60 * (pc - 1))], 'P_{c}', C_ART, 4 + 4 * pc, 24 if W > 4.5 else 15,
+                              lx=F.p(325, 0)[0], ly=F.p(0, 430)[1], lw=min(0.75, F.sx(190)), name='!!FlechaPc', lbg=WHITE)
     if 'onc' in show:
-        A['f_onc'] = arrow_lbl(s, [F.p(520, 500 - 40 * (onc - 1)), F.p(520, 200)], 'π_{c}', C_VEN, 3 + 4 * onc, 24,
-                               lx=F.p(545, 0)[0], ly=F.p(0, 430)[1], lw=0.75, name='!!FlechaOnc', lbg=WHITE)
+        A['f_onc'] = arrow_lbl(s, [F.p(520, 500 - 40 * (onc - 1)), F.p(520, 200)], 'π_{c}', C_VEN, 3 + 4 * onc, 24 if W > 4.5 else 15,
+                               lx=F.p(545, 0)[0], ly=F.p(0, 430)[1], lw=min(0.75, F.sx(190)), name='!!FlechaOnc', lbg=WHITE)
     if 'net' in show:
         net = pc - onc + 0.4 * perm + 0.3
         A['f_net'] = arrow_lbl(s, [F.p(150, 330), F.p(150, 600 + 120 * max(0, net - 0.3))], 'Filtración neta', '1F4E79',

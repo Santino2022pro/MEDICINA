@@ -74,7 +74,7 @@ Cada clic introduce un concepto. Dentro de cada clic, los efectos «con la anter
 ## Verificación realizada
 
 - 262 diapositivas sin identificadores duplicados, con todos los destinos de animación existentes y con nombres `!!` únicos dentro de cada diapositiva.
-- Control automático al generar (`build.py`): no se admite interlineado proporcional; el interlineado y los tamaños de letra deben estar en rango, todo el texto debe caber en su recuadro y la fuente incrustada debe ser EOT válido. La generación se detiene si falla.
+- Control automático al generar (`build.py`): no se admite interlineado proporcional; el interlineado y los tamaños de letra deben estar en rango, todo el texto debe caber en su recuadro, ningún recuadro de texto puede superponerse con otro (incluidos el título y el indicador de paso) y la fuente incrustada debe ser EOT válido. La generación se detiene si falla.
 - Revisión visual de todas las diapositivas renderizadas con LibreOffice. LibreOffice **no reproduce Morph ni la mayoría de las animaciones**, así que conviene una pasada final en PowerPoint de escritorio (Microsoft 365) antes de la clase.
 - Búsqueda de expresiones prohibidas («el docente», «según el apunte», nombres de autores, inteligencia artificial): no figuran en el texto de las diapositivas. Las discrepancias se rotulan «en revisión» y se detallan en la auditoría.
 
