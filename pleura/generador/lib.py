@@ -26,6 +26,8 @@ F_COND = 'Mali'
 F_MATH = 'Cambria Math'
 F_SYM = 'Segoe UI Symbol'
 HERE = os.path.dirname(os.path.abspath(__file__))
+import fuentes as _fuentes
+_fuentes.prepare()
 
 # ---------------------------------------------------------------- paleta
 INK = '1E1E1E'
@@ -81,9 +83,15 @@ def _font(face, bold, size):
 
 
 def text_w(s, face, bold, size):
-    """ancho aproximado en pulgadas (con 7 % de holgura frente a Bahnschrift real)"""
+    """ancho en pulgadas medido con la fuente real (4 % de holgura)"""
     f = _font(face, bold, size)
     return f.getlength(s) / 10 / 72 * 1.04
+
+
+# Interlineado EXACTO (en puntos) = LINE × tamaño × factor. Se escribe como <a:spcPts>, que
+# PowerPoint (Windows/Mac), Google Slides y LibreOffice respetan igual, sin depender de las
+# métricas verticales de la fuente. La estimación de alto de texto usa exactamente el mismo valor.
+LINE = 1.22
 
 
 WARN = []
@@ -192,48 +200,90 @@ def para_xml(line, size, font, color, align='l', bold=False, spc_after=0, ital=F
     else:
         bullet = '<a:buNone/>'
     sp = '<a:spcAft><a:spcPts val="%d"/></a:spcAft>' % int(spc_after * 100) if spc_after else ''
-    ls = '<a:lnSpc><a:spcPct val="%d"/></a:lnSpc>' % int(lnspc * 1000) if lnspc else ''
+    ls = '<a:lnSpc><a:spcPts val="%d"/></a:lnSpc>' % int(round(size * LINE * (lnspc or 1.0) * 100))
     algn = {'l': 'l', 'c': 'ctr', 'r': 'r', 'j': 'just'}[align]
     end = '<a:endParaRPr lang="es-AR" sz="%d" dirty="0"><a:latin typeface="%s"/></a:endParaRPr>' % (int(size * 100), font)
     return '<a:p><a:pPr algn="%s"%s>%s%s%s</a:pPr>%s%s</a:p>' % (
         algn, indent, ls, sp, bullet, runs_xml(line, size, font, color, bold, ital, reff) if line else '', end)
 
 
-def wrap_lines(text, w_in, size, font, bold):
-    """número de líneas aproximadas para un párrafo"""
-    n = 0
+def _words(line, bold):
+    """palabras de una línea como listas de (carácter, negrita)"""
+    words = [[]]
+    for t, b, i, c, base in parse_runs(line):
+        for ch in t:
+            if ch == ' ':
+                words.append([])
+            else:
+                words[-1].append((ch, b or bold))
+    return words
+
+
+def _word_w(word, font, size):
+    """ancho de una palabra midiendo cada tramo con su peso (regular / negrita)"""
+    w = 0.0; cur = ''; cb = None
+    for ch, b in word:
+        if cb is None or b == cb:
+            cur += ch; cb = b
+        else:
+            w += text_w(cur, font, cb, size); cur = ch; cb = b
+    if cur:
+        w += text_w(cur, font, cb, size)
+    return w
+
+
+def layout(text, w_in, size, font, bold):
+    """(líneas totales, hay_palabra_más_ancha_que_el_recuadro)"""
+    n = 0; over = False
+    sp = text_w(' ', font, False, size)
     for line in text.split('\n'):
         ind = 0
-        if line[:2] in ('- ', '+ '):
-            line = line[2:]; ind = size * 1.0 / 72
-        words = plain(line).split(' ')
-        cur = ''
-        lines = 1
+        if line[:2] == '- ':
+            line = line[2:]; ind = size * 0.75 / 72
+        elif line[:2] == '+ ':
+            line = line[2:]; ind = size * 0.95 / 72
         avail = w_in - ind
-        for wd in words:
-            t = (cur + ' ' + wd).strip()
-            if text_w(t, font, bold, size) <= avail or not cur:
-                cur = t
-                if text_w(t, font, bold, size) > avail and avail > 0.6:  # palabra sola más ancha
-                    WARN.append('palabra demasiado ancha: %r' % wd)
+        lines = 1; x = 0.0
+        for wd in _words(line, bold):
+            ww = _word_w(wd, font, size)
+            if ww > avail:
+                over = True
+            if x == 0:
+                x = ww
+            elif x + sp + ww <= avail:
+                x += sp + ww
             else:
-                lines += 1; cur = wd
+                lines += 1; x = ww
         n += lines
-    return n
+    return n, over
+
+
+def wrap_lines(text, w_in, size, font, bold):
+    return layout(text, w_in, size, font, bold)[0]
 
 
 def text_h(text, w_in, size, font, bold, spc_after=0, lnspc=1.0):
     nl = wrap_lines(text, w_in, size, font, bold)
     npar = text.count('\n') + 1
-    return nl * size * 1.2 * lnspc / 72 + (npar - 1) * spc_after / 72
+    return nl * size * LINE * (lnspc or 1.0) / 72 + (npar - 1) * spc_after / 72
+
+
+def fits(text, w_in, h_in, size, font, bold=False, spc_after=0, lnspc=1.0):
+    nl, over = layout(text, w_in, size, font, bold)
+    npar = text.count('\n') + 1
+    h = nl * size * LINE * (lnspc or 1.0) / 72 + (npar - 1) * spc_after / 72
+    return (h <= h_in) and not over
 
 
 def fit_size(text, w_in, h_in, size, font, bold=False, minsize=11, spc_after=0, lnspc=1.0, label=''):
     s = size
-    while s > minsize and text_h(text, w_in, s, font, bold, spc_after * s / size, lnspc) > h_in:
+    while s > minsize and not fits(text, w_in, h_in, s, font, bold, spc_after * s / size, lnspc):
         s -= 0.5
+    nl, over = layout(text, w_in, s, font, bold)
     if text_h(text, w_in, s, font, bold, spc_after * s / size, lnspc) > h_in * 1.02:
         WARN.append('DESBORDE (%s): %.1fpt en %.2fx%.2f -> %r' % (label, s, w_in, h_in, plain(text)[:60]))
+    if over:
+        WARN.append('PALABRA ANCHA (%s): %.1fpt en %.2f -> %r' % (label, s, w_in, plain(text)[:60]))
     return s
 
 
@@ -792,15 +842,19 @@ class Deck:
                 x = re.sub(r' saveSubsetFonts="\d"', '', x)
                 x = x.replace(' type="screen4x3"', '')
                 x = x.replace('<p:presentation ', '<p:presentation embedTrueTypeFonts="1" saveSubsetFonts="0" ', 1)
-                emb = ('<p:embeddedFontLst><p:embeddedFont><p:font typeface="Mali" pitchFamily="2" charset="0"/>%s</p:embeddedFont></p:embeddedFontLst>'
-                       % ''.join('<p:%s r:id="rIdF%d"/>' % (f[2], i + 1) for i, f in enumerate(fonts)))
+                import fuentes
+                pan = fuentes.panose_hex(os.path.join(HERE, 'fuentes', 'Mali-Regular.ttf'))
+                emb = ('<p:embeddedFontLst><p:embeddedFont><p:font typeface="Mali" panose="%s" pitchFamily="2" charset="0"/>%s</p:embeddedFont></p:embeddedFontLst>'
+                       % (pan, ''.join('<p:%s r:id="rIdF%d"/>' % (f[2], i + 1) for i, f in enumerate(fonts))))
                 i = x.index('<p:notesSz')
                 j = x.index('/>', i) + 2
                 x = x[:j] + emb + x[j:]
                 data = x.encode('utf8')
             zout.writestr(it, data)
+        import fuentes
         for f in fonts:
-            zout.write(os.path.join(HERE, 'fuentes', f[1]), 'ppt/fonts/' + f[0])
+            # PowerPoint guarda y lee las fuentes incrustadas en formato EOT (Embedded OpenType)
+            zout.writestr('ppt/fonts/' + f[0], fuentes.to_eot(os.path.join(HERE, 'fuentes', f[1])))
         zout.close(); zin.close()
         shutil.move(tmp, fn)
 

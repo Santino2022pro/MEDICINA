@@ -275,7 +275,7 @@ def comp(D, ttl, left, right, rows, src, lbl, cols=(C_FLUID, C_AIR), bg='blanco'
         y = 1.0 + i * (hh + 0.06)
         g = s.group_start('Fila ' + k)
         box(s, 3.65, y, 2.35, hh, l, cols[0], 12.5, bold=False, grow=False)
-        box(s, 6.05, y, 1.5, hh, k.upper(), WHITE, 11.5, grow=False)
+        box(s, 6.05, y, 1.5, hh, smart_upper(k), WHITE, 11.5, grow=False)
         box(s, 7.6, y, 2.05, hh, r, cols[1] if cols[1] != C_AIR else 'EAF6FB', 12.5, bold=False, grow=False)
         ids.append(s.group_end())
     reveal(s, ids, 1)

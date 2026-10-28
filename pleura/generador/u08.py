@@ -146,7 +146,7 @@ def atelectasia(D):
         y = 4.75 + i * 0.56
         g = s.group_start('Diferencia ' + k)
         box(s, 0.3, y, 5.2, 0.5, l, C_AIR, 12.5, bold=False, grow=False)
-        box(s, 5.55, y, 2.25, 0.5, k.upper(), WHITE, 12.5, grow=False)
+        box(s, 5.55, y, 2.25, 0.5, smart_upper(k), WHITE, 12.5, grow=False)
         box(s, 7.85, y, 5.2, 0.5, r, 'E8DAEF', 12.5, bold=False, grow=False)
         ids.append(s.group_end())
     reveal(s, ids, 1)

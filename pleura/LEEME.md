@@ -43,9 +43,16 @@ Los rangos exactos de diapositivas están en `INDICE_ACADEMICO.md`.
 
 - **Recuadros:** etiqueta de sección blanca con borde negro y barra de título celeste pálido con viñeta, como en la referencia. Los recuadros planos de colores intensos (celeste, verde, rojo, amarillo, naranja, turquesa) llevan contorno negro grueso.
 - **Fondos:** fondos anatómicos desenfocados en la carpeta `generador/fondos/`: tórax colorido, azul medio con un pulmón gigante y membranas, mesotelio en empedrado, parénquima rosado y blanco con formas orgánicas.
-- **Tipografía:** la manuscrita gruesa **Mali** (licencia SIL OFL) reemplaza a «Readson» de la referencia, que no es libre. **Va incrustada en el PPTX** (`ppt/fonts`). Si un equipo no la muestra, puede instalarse desde `generador/fuentes/`.
+- **Tipografía:** la manuscrita gruesa **Mali** (licencia SIL OFL 1.1, texto en `generador/fuentes/OFL.txt`) reemplaza a «Readson» de la referencia, que no es libre. **Va incrustada en el PPTX** (`ppt/fonts`, en formato EOT, el que usa PowerPoint). Si un equipo no la muestra, se instalan `generador/fuentes/Mali-Regular.ttf` y `Mali-Bold.ttf`.
 - **Código anatómico constante:** pleura parietal en verde azulado, visceral en morado, trasudado celeste, exudado ámbar, pus amarillo, sangre roja y aire casi blanco con borde punteado.
 - **Ilustraciones:** todas son originales y se construyen con formas vectoriales nativas. Se dibujan el tórax completo, el corte de la pared con ambas hojas, el capilar de Starling, la radiografía esquemática (con **la misma geometría** que la ilustración), la TAC axial, la ecografía en modo B y M, el sello de agua, los tubos de laboratorio, el riñón, el abdomen y las manos del examinador.
+
+## Texto e interlineado
+
+- Cada párrafo lleva **interlineado exacto en puntos** (1,22 × tamaño de letra, o un poco menos en títulos). PowerPoint en Windows y Mac, Google Slides y LibreOffice lo aplican igual, sin depender de las métricas de la fuente.
+- La Mali original declara métricas verticales «Win» enormes (2,12 em) para cubrir el tailandés. Con ellas Office puede separar mucho las líneas. Por eso la versión incluida unifica las métricas (1050/270 unidades); cubre todos los caracteres latinos que usa la presentación. Las versiones sin modificar están en `generador/fuentes/originales/`.
+- El tamaño de letra de cada recuadro se ajusta midiendo cada tramo con su peso real (regular o **negrita**). Si una palabra no cabe en el ancho del recuadro, se reduce la letra para que PowerPoint no la corte a la mitad.
+- Si editás un recuadro y agrandás la letra, ajustá también el interlineado desde *Párrafo → Interlineado*, porque queda fijo en puntos.
 
 ## Morph
 
@@ -67,6 +74,7 @@ Cada clic introduce un concepto. Dentro de cada clic, los efectos «con la anter
 ## Verificación realizada
 
 - 262 diapositivas sin identificadores duplicados, con todos los destinos de animación existentes y con nombres `!!` únicos dentro de cada diapositiva.
+- Control automático al generar (`build.py`): no se admite interlineado proporcional; el interlineado y los tamaños de letra deben estar en rango, todo el texto debe caber en su recuadro y la fuente incrustada debe ser EOT válido. La generación se detiene si falla.
 - Revisión visual de todas las diapositivas renderizadas con LibreOffice. LibreOffice **no reproduce Morph ni la mayoría de las animaciones**, así que conviene una pasada final en PowerPoint de escritorio (Microsoft 365) antes de la clase.
 - Búsqueda de expresiones prohibidas («el docente», «según el apunte», nombres de autores, inteligencia artificial): no figuran en el texto de las diapositivas. Las discrepancias se rotulan «en revisión» y se detallan en la auditoría.
 

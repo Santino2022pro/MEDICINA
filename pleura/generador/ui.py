@@ -61,6 +61,27 @@ def vshade(c, hl=0.35, dk=0.3, ang=90):
     return ('lin', [(0, darken(c, dk)), (30, lighten(c, hl)), (55, c), (100, darken(c, dk))], ang)
 
 
+
+# ---------------------------------------------------------------- mayúsculas seguras
+GREEK = set('αβγδεζηθικλμνξοπρστυφχψωµ')
+UNITS = {'pH', 'mg/dl', 'ml/kg', 'pg/ml', 'g/dl', 'mg', 'dl', 'ml', 'kg', 'cm', 'mm', 'h', 'SpO', 'U/L', 'pl/sér'}
+
+
+def smart_upper(text):
+    """mayúsculas que respetan letras griegas (π, σ), sub/superíndices (P_{c}) y unidades (mg/dl, pH)"""
+    out = []
+    for tok in re.split(r'(\^\{[^}]*\}|_\{[^}]*\}|\*\*)', text):
+        if not tok or tok.startswith('^{') or tok.startswith('_{') or tok == '**':
+            out.append(tok)
+            continue
+        for part in re.split(r'([A-Za-zÁÉÍÓÚÜÑáéíóúüñ/]+)', tok):
+            if part in UNITS:
+                out.append(part)
+            else:
+                out.append(''.join(c if c in GREEK else c.upper() for c in part))
+    return ''.join(out)
+
+
 BORDER = (INK, 2.25)
 THIN = (INK, 1.25)
 
@@ -73,17 +94,17 @@ def dark_fill(f):
 def header(s, tag, ttl, tsize=24):
     """etiqueta de sección (izquierda, blanca) + barra de título (derecha, celeste) con viñeta"""
     tsz = 18
-    tw = min(text_w(tag.upper(), F_HEAD, True, tsz) + 0.42, 4.2)
-    s.shape(0.18, 0.14, tw, 0.56, 'rect', WHITE, BORDER, False, tag.upper(), tsz, F_HEAD, INK, True, 'c', 'm',
+    tw = min(text_w(plain(smart_upper(tag)), F_HEAD, True, tsz) + 0.42, 4.2)
+    s.shape(0.18, 0.14, tw, 0.56, 'rect', WHITE, BORDER, False, smart_upper(tag), tsz, F_HEAD, INK, True, 'c', 'm',
             (0.08, 0.02, 0.08, 0.02), name='Etiqueta sección', minsize=11)
     x0 = 0.18 + tw + 0.22
     maxw = SW - 0.18 - x0
-    t = '• ' + ttl.upper()
+    t = '• ' + smart_upper(ttl)
     sz = tsize
-    while text_w(t, F_HEAD, True, sz) + 0.4 > maxw and sz > 19:
+    while text_w(plain(t), F_HEAD, True, sz) + 0.4 > maxw and sz > 19:
         sz -= 0.5
-    one = text_w(t, F_HEAD, True, sz) + 0.4 <= maxw
-    w = min(max(text_w(t, F_HEAD, True, sz) + 0.5, 4.5), maxw) if one else maxw
+    one = text_w(plain(t), F_HEAD, True, sz) + 0.4 <= maxw
+    w = min(max(text_w(plain(t), F_HEAD, True, sz) + 0.5, 4.5), maxw) if one else maxw
     h = 0.64 if one else 0.98
     x = SW - 0.18 - w
     return s.shape(x, 0.1, w, h, 'rect', PALE, BORDER, False, t, sz, F_HEAD, INK, True, 'c', 'm',
@@ -104,7 +125,7 @@ def box(s, x, y, w, h, text, fill=WHITE, size=15, name=None, align='c', anchor='
     hh0 = 0.42 if head else 0
     iw = w - ins[0] - ins[2]; ih = h - hh0 - ins[1] - ins[3]
     sz = size
-    while grow and sz < size + 5 and sz < 24 and text_h(text, iw, sz + 0.5, F_BODY, bold, spc, lnspc) <= ih * 0.82:
+    while grow and sz < size + 5 and sz < 24 and fits(text, iw, ih * 0.82, sz + 0.5, F_BODY, bold, spc, lnspc):
         sz += 0.5
     size = sz
     if head:
@@ -113,7 +134,7 @@ def box(s, x, y, w, h, text, fill=WHITE, size=15, name=None, align='c', anchor='
         s.shape(x, y + hh - 0.02, w, h - hh + 0.02, 'rect', fill, line, False, text, size, F_BODY, col, bold, align, anchor,
                 ins, minsize=minsize, spc=spc, lnspc=lnspc)
         hf = headfill or WHITE
-        s.shape(x, y, w, hh, 'rect', hf, line, False, head.upper(), min(size + 1.5, 17), F_HEAD,
+        s.shape(x, y, w, hh, 'rect', hf, line, False, smart_upper(head), min(size + 1.5, 17), F_HEAD,
                 WHITE if dark_fill(hf) else INK, True, 'c', 'm', (0.06, 0, 0.06, 0), minsize=10)
         return s.group_end()
     return s.shape(x, y, w, h, 'rect', fill, line, False, text, size, F_BODY, col, bold, align, anchor, ins,

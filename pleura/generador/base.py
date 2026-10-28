@@ -45,9 +45,10 @@ def divider(D, roman, ttl, sub, topics, art, bg='blanco', src=()):
     s = D.new(BG[bg])
     s.src = list(src); s.tagname = 'Unidad ' + roman
     s.morph = False
-    s.shape(0.35, 0.3, 1.9, 0.75, 'rect', WHITE, BORDER, False, 'UNIDAD ' + roman, 24, F_HEAD, INK, True, 'c', 'm',
+    lw = text_w('UNIDAD ' + roman, F_HEAD, True, 24) + 0.45
+    s.shape(0.35, 0.3, lw, 0.75, 'rect', WHITE, BORDER, False, 'UNIDAD ' + roman, 24, F_HEAD, INK, True, 'c', 'm',
             name='Etiqueta sección')
-    t = s.text(0.35, 1.2, 6.4, 1.7, ttl.upper(), 40, F_TITLE, INK, True, 'l', 'm', name='Título', minsize=24, lnspc=0.9)
+    t = s.text(0.35, 1.2, 6.4, 1.7, smart_upper(ttl), 40, F_TITLE, INK, True, 'l', 'm', name='Título', minsize=24, lnspc=0.9)
     sb = s.shape(0.35, 2.95, 6.3, 0.62, 'rect', CEL, BORDER, False, sub, 17, F_HEAD, INK, True, 'c', 'm', name='Subtítulo', minsize=11)
     ids = []
     y = 3.8
