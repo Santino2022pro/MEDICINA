@@ -1,0 +1,1079 @@
+Diapositiva;Orden (clic);Objeto;Efecto;Duración (ms);Disparador
+1;1;Título;Entrada · Desvanecer;500;Al hacer clic
+1;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+1;2;Temario;Entrada · Barrido (desde izquierda);600;Al hacer clic
+1;2;Materia;Entrada · Desvanecer;500;Después de la anterior
+2;1;Unidad I;Entrada · Desvanecer;500;Al hacer clic
+2;1;Unidad II;Entrada · Desvanecer;500;Después de la anterior
+2;2;Unidad III;Entrada · Desvanecer;500;Al hacer clic
+2;2;Unidad IV;Entrada · Desvanecer;500;Después de la anterior
+2;3;Unidad V;Entrada · Desvanecer;500;Al hacer clic
+2;3;Unidad VI;Entrada · Desvanecer;500;Después de la anterior
+2;4;Unidad VII;Entrada · Desvanecer;500;Al hacer clic
+2;4;Unidad VIII;Entrada · Desvanecer;500;Después de la anterior
+2;5;Unidad IX;Entrada · Desvanecer;500;Al hacer clic
+2;5;Unidad X;Entrada · Desvanecer;500;Después de la anterior
+3;1;Unidad XI;Entrada · Desvanecer;500;Al hacer clic
+3;1;Unidad XII;Entrada · Desvanecer;500;Después de la anterior
+3;2;Unidad XIII;Entrada · Desvanecer;500;Al hacer clic
+3;2;Unidad XIV;Entrada · Desvanecer;500;Después de la anterior
+3;3;Unidad XV;Entrada · Desvanecer;500;Al hacer clic
+3;3;Unidad XVI;Entrada · Desvanecer;500;Después de la anterior
+3;4;Unidad XVII;Entrada · Desvanecer;500;Al hacer clic
+3;4;Unidad XVIII;Entrada · Desvanecer;500;Después de la anterior
+3;5;Unidad XIX;Entrada · Desvanecer;500;Al hacer clic
+4;1;Código Pleura parietal;Entrada · Desvanecer;500;Al hacer clic
+4;1;Código Pleura visceral;Entrada · Desvanecer;500;Después de la anterior
+4;1;Código Líquido seroso / trasudado;Entrada · Desvanecer;500;Después de la anterior
+4;1;Código Exudado (turbio, proteico);Entrada · Desvanecer;500;Después de la anterior
+4;1;Código Pus (empiema);Entrada · Desvanecer;500;Después de la anterior
+4;2;Código Líquido hemorrágico;Entrada · Desvanecer;500;Al hacer clic
+4;2;Código Aire en el espacio pleural;Entrada · Desvanecer;500;Después de la anterior
+4;2;Código Vaso linfático;Entrada · Desvanecer;500;Después de la anterior
+4;2;Código Capilar / arterial;Entrada · Desvanecer;500;Después de la anterior
+4;2;Código Venoso / venas cavas;Entrada · Desvanecer;500;Después de la anterior
+4;3;Tipo DEFINICIÓN /;Entrada · Desvanecer;500;Al hacer clic
+4;3;Tipo MECANISMO FI;Entrada · Desvanecer;500;Después de la anterior
+4;3;Tipo CONSECUENCIA;Entrada · Desvanecer;500;Después de la anterior
+4;3;Tipo DATO CLAVE /;Entrada · Desvanecer;500;Después de la anterior
+4;3;Tipo HALLAZGO SEM;Entrada · Desvanecer;500;Después de la anterior
+4;3;Tipo IMÁGENES;Entrada · Desvanecer;500;Después de la anterior
+4;3;Tipo ALERTA · EME;Entrada · Desvanecer;500;Después de la anterior
+4;4;Convención;Entrada · Zoom;500;Al hacer clic
+5;1;Definición síndrome;Entrada · Desvanecer;500;Al hacer clic
+5;2;Forma 4;Entrada · Desvanecer;500;Al hacer clic
+5;3;Flecha 5_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+5;3;Forma 7;Entrada · Desvanecer;500;Después de la anterior
+5;4;Flecha 8_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+5;4;Forma 10;Entrada · Desvanecer;500;Después de la anterior
+5;5;Flecha 11_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+5;5;Forma 13;Entrada · Desvanecer;500;Después de la anterior
+5;6;Flecha 14_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+5;6;Forma 16;Entrada · Desvanecer;500;Después de la anterior
+5;7;Ejemplo;Entrada · Desvanecer;500;Al hacer clic
+5;8;Niveles;Entrada · Desvanecer;500;Al hacer clic
+5;9;Alerta pasos;Entrada · Zoom;500;Al hacer clic
+6;1;Título;Entrada · Desvanecer;500;Al hacer clic
+6;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+6;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+6;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+6;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+6;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+6;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+6;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+7;1;!!ParedToracica;Entrada · Desvanecer;500;Al hacer clic
+7;1;!!Costillas;Entrada · Desvanecer;500;Después de la anterior
+7;1;!!Clavículas;Entrada · Desvanecer;500;Con la anterior
+7;2;!!PulmonDerecho;Entrada · Desvanecer;500;Al hacer clic
+7;2;!!PulmonIzquierdo;Entrada · Desvanecer;500;Con la anterior
+7;2;!!PleuraVisceralD;Entrada · Desvanecer;500;Con la anterior
+7;2;!!PleuraVisceralI;Entrada · Desvanecer;500;Con la anterior
+7;3;!!Mediastino;Entrada · Desvanecer;500;Al hacer clic
+7;3;!!Corazon;Entrada · Desvanecer;500;Después de la anterior
+7;3;!!Aorta;Entrada · Desvanecer;500;Con la anterior
+7;3;!!VenaCavaSup;Entrada · Desvanecer;500;Con la anterior
+7;3;!!VenaCavaInf;Entrada · Desvanecer;500;Con la anterior
+7;3;!!Traquea;Entrada · Desvanecer;500;Con la anterior
+7;4;!!Diafragma;Entrada · Barrido (desde izquierda);600;Al hacer clic
+7;4;!!PleuraParietalD;Entrada · Desvanecer;500;Con la anterior
+7;4;!!PleuraParietalI;Entrada · Desvanecer;500;Con la anterior
+7;5;Rótulo Costillas y pared;Entrada · Desvanecer;500;Al hacer clic
+7;5;Rótulo Pulmón derecho;Entrada · Desvanecer;500;Después de la anterior
+7;6;Rótulo Mediastino y corazón;Entrada · Desvanecer;500;Al hacer clic
+7;6;Rótulo Diafragma;Entrada · Desvanecer;500;Después de la anterior
+7;7;Concepto pleura;Entrada · Desvanecer;500;Al hacer clic
+8;1;Pulmón ocupa;Entrada · Desvanecer;500;Al hacer clic
+9;1;Rótulo PLEURA VISCERAL;Entrada · Desvanecer;500;Al hacer clic
+9;1;!!PleuraVisceralD;Énfasis · Pulso;300;Después de la anterior
+9;2;Visceral texto;Entrada · Barrido (desde arriba);600;Al hacer clic
+10;1;Rótulo PLEURA PARIETAL;Entrada · Desvanecer;500;Al hacer clic
+10;1;!!PleuraParietalD;Énfasis · Pulso;300;Después de la anterior
+10;2;Parietal texto;Entrada · Barrido (desde arriba);600;Al hacer clic
+10;3;Inervación;Entrada · Zoom;500;Al hacer clic
+11;1;Dos hojas;Entrada · Desvanecer;500;Al hacer clic
+12;1;Rótulo Costilla;Entrada · Desvanecer;500;Al hacer clic
+12;1;Rótulo Paquete vasculonervios;Entrada · Desvanecer;500;Después de la anterior
+12;2;Rótulo Pleura parietal (mesot;Entrada · Desvanecer;500;Al hacer clic
+12;2;Rótulo Espacio pleural;Entrada · Desvanecer;500;Después de la anterior
+12;3;Rótulo Pleura visceral (mesot;Entrada · Desvanecer;500;Al hacer clic
+12;3;Rótulo Alvéolos;Entrada · Desvanecer;500;Después de la anterior
+12;4;Cavidad potencial;Entrada · Desvanecer;500;Al hacer clic
+13;1;Lubricante;Entrada · Desvanecer;500;Al hacer clic
+13;1;!!LiquidoPleural;Énfasis · Pulso;300;Después de la anterior
+13;2;Volumen normal;Entrada · Zoom;500;Al hacer clic
+13;3;Alteración;Entrada · Desvanecer;500;Al hacer clic
+14;1;Inspiración texto;Entrada · Desvanecer;500;Al hacer clic
+14;2;Flecha deslizamiento;Entrada · Barrido (desde izquierda);600;Al hacer clic
+14;2;!!PleuraVisceral;Trayectoria de movimiento (Δx 0.55″, Δy 0.00″);1100;Con la anterior
+14;2;!!Alveolos;Trayectoria de movimiento (Δx 0.55″, Δy 0.00″);1100;Con la anterior
+14;3;Acople;Entrada · Desvanecer;500;Al hacer clic
+15;1;Espiración texto;Entrada · Desvanecer;500;Al hacer clic
+15;2;Flecha retorno;Entrada · Barrido (desde derecha);600;Al hacer clic
+15;2;!!PleuraVisceral;Trayectoria de movimiento (Δx -0.55″, Δy 0.00″);1100;Con la anterior
+15;2;!!Alveolos;Trayectoria de movimiento (Δx -0.55″, Δy 0.00″);1100;Con la anterior
+16;1;Expansión 0;Entrada · Desvanecer;500;Al hacer clic
+16;1;Expansión 1;Entrada · Desvanecer;500;Después de la anterior
+16;1;Expansión 2;Entrada · Desvanecer;500;Después de la anterior
+16;1;Expansión 3;Entrada · Desvanecer;500;Después de la anterior
+16;2;Recuadro Presión negativa;Entrada · Desvanecer;500;Al hacer clic
+16;3;Recuadro Lubricación;Entrada · Desvanecer;500;Al hacer clic
+16;4;Recuadro Acoplamiento;Entrada · Desvanecer;500;Al hacer clic
+17;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+17;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+17;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+17;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+17;5;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Al hacer clic
+17;6;Continuidad;Entrada · Desvanecer;500;Al hacer clic
+17;7;Dolor pleurítico;Entrada · Desvanecer;500;Al hacer clic
+18;1;Recuadro Protección;Entrada · Desvanecer;500;Al hacer clic
+18;2;Recuadro Deslizamiento;Entrada · Desvanecer;500;Al hacer clic
+18;3;Recuadro Permisibilidad;Entrada · Desvanecer;500;Al hacer clic
+18;4;Recuadro Mecánica ventilatoria;Entrada · Desvanecer;500;Al hacer clic
+18;5;No inútil;Entrada · Desvanecer;500;Al hacer clic
+19;1;Estado NORMAL;Entrada · Desvanecer;500;Al hacer clic
+19;2;Estado LÍQUIDO;Entrada · Desvanecer;500;Al hacer clic
+19;3;Estado AIRE;Entrada · Desvanecer;500;Al hacer clic
+19;4;Estado PUS;Entrada · Desvanecer;500;Al hacer clic
+19;5;Conclusión cavidad;Entrada · Desvanecer;500;Al hacer clic
+20;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+20;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+20;2;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+20;3;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+20;3;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Después de la anterior
+20;4;Tabla fila 5;Entrada · Barrido (desde izquierda);450;Al hacer clic
+20;4;Tabla fila 6;Entrada · Barrido (desde izquierda);450;Después de la anterior
+20;5;Tabla fila 7;Entrada · Barrido (desde izquierda);450;Al hacer clic
+20;6;Tubo normal;Entrada · Desvanecer;500;Al hacer clic
+20;7;Revisión valores;Entrada · Desvanecer;500;Al hacer clic
+21;1;Barra Macrófagos;Entrada · Desvanecer;500;Al hacer clic
+21;2;Barra Linfocitos;Entrada · Desvanecer;500;Al hacer clic
+21;3;Barra Células mesoteliales;Entrada · Desvanecer;500;Al hacer clic
+21;4;Barra PMN;Entrada · Desvanecer;500;Al hacer clic
+21;5;Recuento total;Entrada · Zoom;500;Al hacer clic
+21;6;Interpretación celular;Entrada · Desvanecer;500;Al hacer clic
+22;1;Retracción pulmón;Entrada · Barrido (desde derecha);600;Al hacer clic
+22;2;Expansión pared;Entrada · Barrido (desde izquierda);600;Al hacer clic
+22;3;Recuadro Pulmón;Entrada · Desvanecer;500;Al hacer clic
+22;4;Recuadro Pared torácica;Entrada · Desvanecer;500;Al hacer clic
+22;5;Recuadro Resultado;Entrada · Desvanecer;500;Al hacer clic
+22;6;Puente neumotórax;Entrada · Desvanecer;500;Al hacer clic
+23;1;Título;Entrada · Desvanecer;500;Al hacer clic
+23;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+23;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+23;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+23;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+23;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+23;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+23;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+24;1;Ecuación;Entrada · Zoom;500;Al hacer clic
+24;2;Variable K;Entrada · Desvanecer;500;Al hacer clic
+24;2;Variable Pc;Entrada · Desvanecer;500;Después de la anterior
+24;3;Variable Pi;Entrada · Desvanecer;500;Al hacer clic
+24;3;Variable σ;Entrada · Desvanecer;500;Después de la anterior
+24;4;Variable πc;Entrada · Desvanecer;500;Al hacer clic
+24;4;Variable πi;Entrada · Desvanecer;500;Después de la anterior
+24;5;Rupturas;Entrada · Desvanecer;500;Al hacer clic
+25;1;Recuadro Capilar;Entrada · Desvanecer;500;Al hacer clic
+26;1;Recuadro Endotelio;Entrada · Desvanecer;500;Al hacer clic
+26;2;Recuadro σ ≈ 1;Entrada · Desvanecer;500;Al hacer clic
+27;1;Recuadro Compartimento receptor;Entrada · Desvanecer;500;Al hacer clic
+28;1;!!FlechaPc;Entrada · Barrido (desde arriba);600;Al hacer clic
+28;2;Recuadro Pc;Entrada · Desvanecer;500;Al hacer clic
+29;1;!!FlechaOnc;Entrada · Barrido (desde abajo);600;Al hacer clic
+29;2;!!Albumina;Énfasis · Pulso;300;Al hacer clic
+29;3;Recuadro πc;Entrada · Desvanecer;500;Al hacer clic
+30;1;!!FlechaNeta;Entrada · Barrido (desde arriba);600;Al hacer clic
+30;2;Recuadro Filtración neta;Entrada · Desvanecer;500;Al hacer clic
+31;1;!!FlechaLinfa;Entrada · Barrido (desde abajo);600;Al hacer clic
+31;2;Recuadro Linfáticos;Entrada · Desvanecer;500;Al hacer clic
+32;1;Recuadro Equilibrio;Entrada · Desvanecer;500;Al hacer clic
+33;1;Recuadro Ruptura del equilibrio;Entrada · Desvanecer;500;Al hacer clic
+34;1;!!LiquidoAcumulado;Entrada · Barrido (desde abajo);900;Al hacer clic
+34;2;Recuadro Derrame;Entrada · Desvanecer;500;Al hacer clic
+35;1;Recuadro Derrame pleural;Entrada · Desvanecer;500;Al hacer clic
+35;2;Recuadro Edema intersticial;Entrada · Desvanecer;500;Al hacer clic
+35;3;Recuadro Edema alveolar;Entrada · Desvanecer;500;Al hacer clic
+35;4;No confundir;Entrada · Desvanecer;500;Al hacer clic
+35;5;Revisión;Entrada · Desvanecer;500;Al hacer clic
+36;1;Título;Entrada · Desvanecer;500;Al hacer clic
+36;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+36;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+36;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+36;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+36;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+36;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+36;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+37;1;Recuadro Estado basal;Entrada · Desvanecer;500;Al hacer clic
+38;1;Recuadro Causa;Entrada · Desvanecer;500;Al hacer clic
+38;2;Recuadro Pleura;Entrada · Desvanecer;500;Al hacer clic
+39;1;Recuadro Resultado;Entrada · Desvanecer;500;Al hacer clic
+39;2;Recuadro ICC;Entrada · Desvanecer;500;Al hacer clic
+40;1;Forma 37;Entrada · Desvanecer;500;Al hacer clic
+40;2;Flecha 38_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+40;2;Forma 40;Entrada · Desvanecer;500;Después de la anterior
+40;3;Flecha 41_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+40;3;Forma 43;Entrada · Desvanecer;500;Después de la anterior
+40;4;Flecha 44_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+40;4;Forma 46;Entrada · Desvanecer;500;Después de la anterior
+40;5;Función primero;Entrada · Desvanecer;500;Al hacer clic
+41;1;Recuadro Albúmina;Entrada · Desvanecer;500;Al hacer clic
+42;1;Recuadro Causas;Entrada · Desvanecer;500;Al hacer clic
+42;2;Recuadro Pleura;Entrada · Desvanecer;500;Al hacer clic
+43;1;Recuadro Resultado;Entrada · Desvanecer;500;Al hacer clic
+43;2;Recuadro Nefrótico;Entrada · Desvanecer;500;Al hacer clic
+44;1;Recuadro Reabsorción;Entrada · Desvanecer;500;Al hacer clic
+45;1;Recuadro Bloqueo;Entrada · Desvanecer;500;Al hacer clic
+45;2;Recuadro Capacidad;Entrada · Desvanecer;500;Al hacer clic
+46;1;Recuadro Resultado;Entrada · Desvanecer;500;Al hacer clic
+46;2;Recuadro No taxativo;Entrada · Desvanecer;500;Al hacer clic
+47;1;Recuadro Barrera;Entrada · Desvanecer;500;Al hacer clic
+48;1;Recuadro Lesión local;Entrada · Desvanecer;500;Al hacer clic
+48;2;Recuadro Pleura;Entrada · Desvanecer;500;Al hacer clic
+49;1;Recuadro Resultado;Entrada · Desvanecer;500;Al hacer clic
+49;2;Recuadro Células;Entrada · Desvanecer;500;Al hacer clic
+50;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+50;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+50;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+50;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+50;5;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Al hacer clic
+50;6;Mixtura;Entrada · Desvanecer;500;Al hacer clic
+51;1;Recuadro Mecánica;Entrada · Desvanecer;500;Al hacer clic
+51;2;Recuadro Ventilación;Entrada · Desvanecer;500;Al hacer clic
+51;3;Recuadro Clínica;Entrada · Desvanecer;500;Al hacer clic
+52;1;Recuadro Mecánica;Entrada · Desvanecer;500;Al hacer clic
+52;2;Recuadro Ventilación;Entrada · Desvanecer;500;Al hacer clic
+52;3;Recuadro Clínica;Entrada · Desvanecer;500;Al hacer clic
+53;1;Recuadro Mecánica;Entrada · Desvanecer;500;Al hacer clic
+53;2;Recuadro Ventilación;Entrada · Desvanecer;500;Al hacer clic
+53;3;Recuadro Clínica;Entrada · Desvanecer;500;Al hacer clic
+53;4;Riesgo tensión;Entrada · Zoom;500;Al hacer clic
+54;1;Forma 3;Entrada · Desvanecer;500;Al hacer clic
+54;2;Flecha 4_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+54;2;Forma 6;Entrada · Desvanecer;500;Después de la anterior
+54;3;Flecha 7_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+54;3;Forma 9;Entrada · Desvanecer;500;Después de la anterior
+54;4;Flecha 10_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+54;4;Forma 12;Entrada · Desvanecer;500;Después de la anterior
+54;5;Flecha 13_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+54;5;Forma 15;Entrada · Desvanecer;500;Después de la anterior
+54;6;Variable;Entrada · Desvanecer;500;Al hacer clic
+54;7;Cascada revisión;Entrada · Desvanecer;500;Al hacer clic
+54;8;Es un todo;Entrada · Zoom;500;Al hacer clic
+55;1;Título;Entrada · Desvanecer;500;Al hacer clic
+55;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+55;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+55;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+55;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+55;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+55;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+55;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+56;1;Def trasudado;Entrada · Desvanecer;500;Al hacer clic
+56;2;Def exudado;Entrada · Desvanecer;500;Al hacer clic
+56;3;Tubo trasudado;Entrada · Desvanecer;500;Al hacer clic
+56;3;Trasudado contenido;Entrada · Desvanecer;500;Después de la anterior
+56;4;Tubo exudado;Entrada · Desvanecer;500;Al hacer clic
+56;4;Exudado contenido;Entrada · Desvanecer;500;Después de la anterior
+57;1;Explicación 0;Entrada · Desvanecer;500;Al hacer clic
+58;1;Explicación 1;Entrada · Desvanecer;500;Al hacer clic
+59;1;Explicación 2;Entrada · Desvanecer;500;Al hacer clic
+59;2;!!GotasFiltrado;Entrada · Desvanecer;500;Al hacer clic
+60;1;Explicación 3;Entrada · Desvanecer;500;Al hacer clic
+60;2;!!LiquidoAcumulado;Entrada · Barrido (desde abajo);900;Al hacer clic
+61;1;!!TablaTrasudado encabezado;Entrada · Desvanecer;500;Al hacer clic
+61;2;!!TablaTrasudado fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+61;2;!!TablaTrasudado fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+61;2;!!TablaTrasudado fila 3;Entrada · Barrido (desde izquierda);450;Después de la anterior
+62;1;!!TuboTrasudado;Entrada · Desvanecer;500;Al hacer clic
+63;1;Interpretación trasudado;Entrada · Zoom;500;Al hacer clic
+64;1;Explicación 0;Entrada · Desvanecer;500;Al hacer clic
+65;1;Explicación 1;Entrada · Desvanecer;500;Al hacer clic
+66;1;Explicación 2;Entrada · Desvanecer;500;Al hacer clic
+67;1;Explicación 3;Entrada · Desvanecer;500;Al hacer clic
+68;1;Explicación 4;Entrada · Desvanecer;500;Al hacer clic
+69;1;!!TablaExudado encabezado;Entrada · Desvanecer;500;Al hacer clic
+69;2;!!TablaExudado fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+69;2;!!TablaExudado fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+69;2;!!TablaExudado fila 3;Entrada · Barrido (desde izquierda);450;Después de la anterior
+69;3;!!TuboExudado;Entrada · Desvanecer;500;Al hacer clic
+70;1;Interpretación exudado;Entrada · Zoom;500;Al hacer clic
+71;1;Comparación Mecanismo;Entrada · Desvanecer;500;Al hacer clic
+71;2;Comparación Pleura;Entrada · Desvanecer;500;Al hacer clic
+71;3;Comparación Proteínas y LDH;Entrada · Desvanecer;500;Al hacer clic
+71;4;Comparación Células;Entrada · Desvanecer;500;Al hacer clic
+71;5;Comparación Aspecto;Entrada · Desvanecer;500;Al hacer clic
+71;6;Comparación Lateralidad típica;Entrada · Desvanecer;500;Al hacer clic
+71;7;Advertencia comparación;Entrada · Desvanecer;500;Al hacer clic
+72;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+72;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+72;2;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+72;3;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+72;3;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Después de la anterior
+72;4;Tabla fila 5;Entrada · Barrido (desde izquierda);450;Al hacer clic
+72;4;Tabla fila 6;Entrada · Barrido (desde izquierda);450;Después de la anterior
+72;5;Tabla fila 7;Entrada · Barrido (desde izquierda);450;Al hacer clic
+72;6;Clave teórica;Entrada · Desvanecer;500;Al hacer clic
+72;7;Linfático ambas;Entrada · Desvanecer;500;Al hacer clic
+73;1;Título;Entrada · Desvanecer;500;Al hacer clic
+73;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+73;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+73;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+73;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+73;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+73;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+73;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+74;1;Causa ICC;Entrada · Desvanecer;500;Al hacer clic
+74;1;Causa Hipoalbuminemia severa;Entrada · Desvanecer;500;Después de la anterior
+74;2;Causa Síndrome nefrótico · glomerulonefritis;Entrada · Desvanecer;500;Al hacer clic
+74;2;Causa Cirrosis con ascitis;Entrada · Desvanecer;500;Después de la anterior
+74;3;Causa Pericarditis constrictiva;Entrada · Desvanecer;500;Al hacer clic
+74;3;Causa Diálisis peritoneal;Entrada · Desvanecer;500;Después de la anterior
+74;4;Causa Otras causas;Entrada · Desvanecer;500;Al hacer clic
+74;4;Causa TEP;Entrada · Desvanecer;500;Después de la anterior
+75;1;Causa Neoplasias;Entrada · Desvanecer;500;Al hacer clic
+75;1;Causa Infecciones;Entrada · Desvanecer;500;Después de la anterior
+75;2;Causa TEP con infarto;Entrada · Desvanecer;500;Al hacer clic
+75;2;Causa Colagenopatías;Entrada · Desvanecer;500;Después de la anterior
+75;3;Causa Intraabdominales;Entrada · Desvanecer;500;Al hacer clic
+75;3;Causa Postraumático;Entrada · Desvanecer;500;Después de la anterior
+75;4;Causa Idiopático;Entrada · Desvanecer;500;Al hacer clic
+75;4;Causa Linfático;Entrada · Desvanecer;500;Después de la anterior
+76;1;Frecuente 1;Entrada · Desvanecer;500;Al hacer clic
+76;1;Frecuente 2;Entrada · Desvanecer;500;Después de la anterior
+76;2;Frecuente 3;Entrada · Desvanecer;500;Al hacer clic
+76;2;Frecuente 4;Entrada · Desvanecer;500;Después de la anterior
+76;3;Frecuente 5;Entrada · Desvanecer;500;Al hacer clic
+76;3;Frecuente 6;Entrada · Desvanecer;500;Después de la anterior
+76;4;Frecuente 7;Entrada · Desvanecer;500;Al hacer clic
+76;4;Frecuente 8;Entrada · Desvanecer;500;Después de la anterior
+77;1;Cifras ICC;Entrada · Desvanecer;500;Al hacer clic
+77;2;Típico ICC;Entrada · Desvanecer;500;Al hacer clic
+77;3;Cardiomegalia;Entrada · Desvanecer;500;Al hacer clic
+77;4;Pseudoexudado;Entrada · Desvanecer;500;Al hacer clic
+77;5;Discrepancia diuréticos;Entrada · Desvanecer;500;Al hacer clic
+77;6;Cuándo dudar;Entrada · Desvanecer;500;Al hacer clic
+78;1;Rótulo Pericardio engrosado y;Entrada · Desvanecer;500;Al hacer clic
+78;2;Recuadro Mecanismo;Entrada · Desvanecer;500;Al hacer clic
+78;3;Recuadro Líquido;Entrada · Desvanecer;500;Al hacer clic
+78;4;Recuadro Examen físico;Entrada · Desvanecer;500;Al hacer clic
+78;5;Recuadro Imágenes;Entrada · Desvanecer;500;Al hacer clic
+79;1;Recuadro Origen;Entrada · Desvanecer;500;Al hacer clic
+81;1;Recuadro Paso;Entrada · Desvanecer;500;Al hacer clic
+83;1;Flecha paso;Entrada · Barrido (desde abajo);600;Al hacer clic
+83;2;Recuadro Nombre exacto;Entrada · Desvanecer;500;Al hacer clic
+87;1;!!ProteinasOrina;Entrada · Desvanecer;500;Al hacer clic
+91;1;!!Trombo;Entrada · Desvanecer;500;Al hacer clic
+91;1;Rama trombótica;Entrada · Desvanecer;500;Después de la anterior
+92;1;!!Trombo;Entrada · Desvanecer;500;Al hacer clic
+92;1;Rama trombótica;Entrada · Desvanecer;500;Después de la anterior
+92;2;!!Embolo_2;Trayectoria de movimiento (Δx 0.00″, Δy -0.40″);900;Al hacer clic
+93;1;Forma 3;Entrada · Desvanecer;500;Al hacer clic
+93;1;Flecha 4_2;Entrada · Barrido (desde arriba);600;Después de la anterior
+93;1;Forma 6;Entrada · Desvanecer;500;Después de la anterior
+93;2;Flecha 7_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+93;2;Forma 9;Entrada · Desvanecer;500;Después de la anterior
+93;2;Flecha 10_2;Entrada · Barrido (desde arriba);600;Después de la anterior
+93;2;Forma 12;Entrada · Desvanecer;500;Después de la anterior
+93;3;Forma 13;Entrada · Desvanecer;500;Al hacer clic
+93;3;Flecha 14_2;Entrada · Barrido (desde arriba);600;Después de la anterior
+93;3;Forma 16;Entrada · Desvanecer;500;Después de la anterior
+93;4;Flecha 17_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+93;4;Forma 19;Entrada · Desvanecer;500;Después de la anterior
+93;4;Flecha 20_2;Entrada · Barrido (desde arriba);600;Después de la anterior
+93;4;Forma 22;Entrada · Desvanecer;500;Después de la anterior
+93;5;Forma 23;Entrada · Desvanecer;500;Al hacer clic
+93;5;Forma 24;Entrada · Desvanecer;500;Con la anterior
+94;1;Rótulo Émbolo en la arteria p;Entrada · Desvanecer;500;Al hacer clic
+94;2;Recuadro Líquido;Entrada · Desvanecer;500;Al hacer clic
+94;3;Recuadro Exudado;Entrada · Desvanecer;500;Al hacer clic
+94;4;Recuadro Contexto;Entrada · Desvanecer;500;Al hacer clic
+94;5;Recuadro Citología;Entrada · Desvanecer;500;Al hacer clic
+95;1;Forma 37;Entrada · Desvanecer;500;Al hacer clic
+95;2;Flecha 38_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+95;2;Forma 40;Entrada · Desvanecer;500;Después de la anterior
+95;3;Flecha 41_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+95;3;Forma 43;Entrada · Desvanecer;500;Después de la anterior
+95;4;Flecha 44_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+95;4;Forma 46;Entrada · Desvanecer;500;Después de la anterior
+95;5;Flecha 47_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+95;5;Forma 49;Entrada · Desvanecer;500;Después de la anterior
+95;6;Trasudado o exudado;Entrada · Desvanecer;500;Al hacer clic
+96;1;Paraneumónico;Entrada · Desvanecer;500;Al hacer clic
+96;2;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+96;3;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+96;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+96;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+96;4;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Después de la anterior
+96;5;Tabla fila 5;Entrada · Barrido (desde izquierda);450;Al hacer clic
+96;6;TBC;Entrada · Desvanecer;500;Al hacer clic
+97;1;Recuadro Colagenopatías;Entrada · Desvanecer;500;Al hacer clic
+97;2;Recuadro Intraabdominales;Entrada · Desvanecer;500;Al hacer clic
+97;3;Recuadro Linfa en la pleura;Entrada · Desvanecer;500;Al hacer clic
+97;4;Recuadro Orina en la pleura;Entrada · Desvanecer;500;Al hacer clic
+97;5;Recuadro LCR en la pleura;Entrada · Desvanecer;500;Al hacer clic
+97;6;Recuadro Otras;Entrada · Desvanecer;500;Al hacer clic
+98;1;Título;Entrada · Desvanecer;500;Al hacer clic
+98;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+98;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+98;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+98;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+98;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+98;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+98;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+99;1;Recuadro Grado leve (pequeño);Entrada · Desvanecer;500;Al hacer clic
+99;2;Moderado grave;Entrada · Desvanecer;500;Al hacer clic
+99;3;Recuadro Disnea;Entrada · Desvanecer;500;Al hacer clic
+99;4;Recuadro Dolor pleurítico;Entrada · Desvanecer;500;Al hacer clic
+99;5;Recuadro Tos seca;Entrada · Desvanecer;500;Al hacer clic
+99;6;Recuadro Trepopnea;Entrada · Desvanecer;500;Al hacer clic
+99;7;Revisión síntomas;Entrada · Desvanecer;500;Al hacer clic
+100;1;Nivel 1;Entrada · Desvanecer;500;Al hacer clic
+100;2;Nivel 2;Entrada · Desvanecer;500;Al hacer clic
+100;3;Nivel 3;Entrada · Desvanecer;500;Al hacer clic
+100;4;Nivel 4;Entrada · Desvanecer;500;Al hacer clic
+100;5;Nivel 5;Entrada · Desvanecer;500;Al hacer clic
+100;6;Ubicar;Entrada · Desvanecer;500;Al hacer clic
+101;1;Recuadro Expansión;Entrada · Desvanecer;500;Al hacer clic
+101;1;Recuadro Vibraciones;Entrada · Desvanecer;500;Después de la anterior
+101;2;Recuadro Percusión;Entrada · Desvanecer;500;Al hacer clic
+101;2;Recuadro Auscultación;Entrada · Desvanecer;500;Después de la anterior
+102;1;!!LiquidoPleuralD;Entrada · Desvanecer;500;Al hacer clic
+102;1;Declive;Entrada · Desvanecer;500;Después de la anterior
+103;1;Compresión;Entrada · Desvanecer;500;Al hacer clic
+104;1;Expansión izquierda;Entrada · Barrido (desde izquierda);600;Al hacer clic
+104;1;Expansión derecha;Entrada · Barrido (desde derecha);600;Después de la anterior
+104;2;Menos movimiento;Entrada · Desvanecer;500;Al hacer clic
+105;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+105;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+105;2;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+105;3;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+105;3;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Después de la anterior
+105;4;Batipnea;Entrada · Desvanecer;500;Al hacer clic
+106;1;!!ManoDerecha;Entrada · Desvanecer;500;Al hacer clic
+106;1;!!ManoIzquierda;Entrada · Desvanecer;500;Con la anterior
+106;2;!!ManoDerecha;Trayectoria de movimiento (Δx -0.06″, Δy 0.00″);700;Al hacer clic
+106;2;!!ManoIzquierda;Trayectoria de movimiento (Δx 0.30″, Δy 0.00″);700;Con la anterior
+106;3;Palpación técnica;Entrada · Desvanecer;500;Al hacer clic
+107;1;!!OndasLaringe;Entrada · Desvanecer;500;Al hacer clic
+107;1;Recuadro Origen;Entrada · Desvanecer;500;Después de la anterior
+107;2;!!OndasBronquio;Entrada · Barrido (desde derecha);600;Al hacer clic
+107;3;!!OndasAumentadas;Entrada · Barrido (desde derecha);600;Al hacer clic
+107;3;Recuadro Por encima del derrame;Entrada · Desvanecer;500;Después de la anterior
+107;4;!!OndasAtenuadas;Entrada · Barrido (desde derecha);600;Al hacer clic
+107;4;!!Abolición;Entrada · Zoom;500;Después de la anterior
+107;4;Recuadro Sobre el derrame;Entrada · Desvanecer;500;Después de la anterior
+108;1;!!ManoPlexímetro1;Entrada · Desvanecer;500;Al hacer clic
+108;1;!!ManoPercutora1;Entrada · Desvanecer;500;Con la anterior
+108;2;!!ManoPercutora1;Trayectoria de movimiento (Δx 0.30″, Δy 0.45″);350;Al hacer clic
+108;2;!!OndasSonoridad;Entrada · Desvanecer;500;Después de la anterior
+108;2;Rótulo sonoro;Entrada · Desvanecer;500;Después de la anterior
+108;3;!!ManoPlexímetro2;Entrada · Desvanecer;500;Al hacer clic
+108;3;!!ManoPercutora2;Entrada · Desvanecer;500;Con la anterior
+108;4;!!ManoPercutora2;Trayectoria de movimiento (Δx 0.30″, Δy 0.45″);350;Al hacer clic
+108;4;!!OndasMatidez;Entrada · Desvanecer;500;Después de la anterior
+108;4;Rótulo mate;Entrada · Desvanecer;500;Después de la anterior
+108;5;Recuadro Matidez hídrica;Entrada · Desvanecer;500;Al hacer clic
+108;6;Recuadro Signo de Koranyi;Entrada · Desvanecer;500;Al hacer clic
+108;7;Recuadro Signo del desnivel;Entrada · Desvanecer;500;Al hacer clic
+109;1;!!EstetoscopioAbajo;Entrada · Desvanecer;500;Al hacer clic
+109;1;Recuadro Sobre el derrame;Entrada · Desvanecer;500;Después de la anterior
+109;2;!!EstetoscopioArriba;Entrada · Desvanecer;500;Al hacer clic
+109;2;Recuadro Borde superior;Entrada · Desvanecer;500;Después de la anterior
+109;3;Recuadro Columna e hilio;Entrada · Desvanecer;500;Al hacer clic
+110;1;Tríada 0;Entrada · Desvanecer;500;Al hacer clic
+110;2;Tríada 1;Entrada · Desvanecer;500;Al hacer clic
+110;3;Tríada 2;Entrada · Desvanecer;500;Al hacer clic
+110;4;Un mecanismo;Entrada · Zoom;500;Al hacer clic
+111;1;Matidez Derrame pleural;Entrada · Desvanecer;500;Al hacer clic
+111;2;Matidez Consolidación;Entrada · Desvanecer;500;Al hacer clic
+111;3;Matidez Masa tumoral;Entrada · Desvanecer;500;Al hacer clic
+111;4;Matidez Atelectasia;Entrada · Desvanecer;500;Al hacer clic
+111;5;Coexistencia;Entrada · Desvanecer;500;Al hacer clic
+112;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+112;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+112;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+112;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+112;5;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Al hacer clic
+112;6;Tabla fila 5;Entrada · Barrido (desde izquierda);450;Al hacer clic
+113;1;Título;Entrada · Desvanecer;500;Al hacer clic
+113;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+113;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+113;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+113;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+113;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+113;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+113;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+114;1;Dato Rx;Entrada · Desvanecer;500;Al hacer clic
+115;1;Dato Rx;Entrada · Desvanecer;500;Al hacer clic
+116;1;!!MarcaSeno;Entrada · Zoom;500;Al hacer clic
+116;1;Seno texto;Entrada · Desvanecer;500;Después de la anterior
+117;1;!!CurvaDamoiseau;Entrada · Barrido (desde derecha);900;Al hacer clic
+117;1;Damoiseau texto;Entrada · Desvanecer;500;Después de la anterior
+118;1;Dato Rx;Entrada · Desvanecer;500;Al hacer clic
+119;1;Dato Rx;Entrada · Desvanecer;500;Al hacer clic
+120;1;Mediastino texto;Entrada · Desvanecer;500;Al hacer clic
+121;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+121;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+121;2;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+121;3;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+121;3;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Después de la anterior
+122;1;!!TACLiquido;Entrada · Desvanecer;500;Al hacer clic
+122;2;!!TACLiquido_2;Entrada · Desvanecer;500;Al hacer clic
+122;2;!!TACTabiques;Entrada · Desvanecer;500;Después de la anterior
+122;3;Recuadro Sensibilidad;Entrada · Desvanecer;500;Al hacer clic
+122;4;Recuadro Hallazgo;Entrada · Desvanecer;500;Al hacer clic
+122;5;Recuadro Causa;Entrada · Desvanecer;500;Al hacer clic
+122;6;Recuadro Indicación;Entrada · Desvanecer;500;Al hacer clic
+122;7;Lectura TAC;Entrada · Desvanecer;500;Al hacer clic
+123;1;!!TransductorEcografico;Entrada · Desvanecer;500;Al hacer clic
+123;1;!!OndaUltrasonido;Entrada · Barrido (desde arriba);600;Después de la anterior
+123;2;Rótulo Líquido = NEGRO (aneco;Entrada · Desvanecer;500;Al hacer clic
+123;3;Escala Líquido;Entrada · Desvanecer;500;Al hacer clic
+123;4;Escala Tejidos intermedios;Entrada · Desvanecer;500;Al hacer clic
+123;5;Escala Muy denso (hueso);Entrada · Desvanecer;500;Al hacer clic
+123;6;Ecogenicidad;Entrada · Desvanecer;500;Al hacer clic
+124;1;Título;Entrada · Desvanecer;500;Al hacer clic
+124;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+124;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+124;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+124;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+124;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+124;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+124;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+125;1;Recuadro Definición;Entrada · Desvanecer;500;Al hacer clic
+125;2;Recuadro Doble finalidad;Entrada · Desvanecer;500;Al hacer clic
+125;3;Recuadro Cuándo;Entrada · Desvanecer;500;Al hacer clic
+126;1;!!CostillasPosteriores;Entrada · Desvanecer;500;Al hacer clic
+126;2;Espacios;Entrada · Desvanecer;500;Al hacer clic
+126;3;Nivel del líquido;Entrada · Desvanecer;500;Al hacer clic
+127;1;!!ZonaLiquido;Entrada · Desvanecer;500;Al hacer clic
+127;1;Forma 11;Entrada · Desvanecer;500;Después de la anterior
+127;2;Recuadro Clínica e imágenes;Entrada · Desvanecer;500;Al hacer clic
+127;3;Recuadro Vista posterior;Entrada · Desvanecer;500;Al hacer clic
+128;1;Corte;Entrada · Desvanecer;500;Al hacer clic
+128;2;Capas;Entrada · Desvanecer;500;Al hacer clic
+129;1;Rótulo Paquete vasculonervios;Entrada · Desvanecer;500;Al hacer clic
+129;1;!!PaqueteVN;Énfasis · Pulso;300;Después de la anterior
+129;2;Rótulo Borde superior costill;Entrada · Desvanecer;500;Al hacer clic
+129;3;Recuadro Surco subcostal;Entrada · Desvanecer;500;Al hacer clic
+129;4;Recuadro Principio;Entrada · Desvanecer;500;Al hacer clic
+129;5;Recuadro En revisión;Entrada · Desvanecer;500;Al hacer clic
+130;1;!!Aguja;Entrada · Desvanecer;500;Al hacer clic
+130;1;!!Aguja;Trayectoria de movimiento (Δx 0.00″, Δy 2.87″);1200;Después de la anterior
+130;2;Trayecto;Entrada · Desvanecer;500;Al hacer clic
+130;3;Seguridad;Entrada · Desvanecer;500;Al hacer clic
+131;1;Frasco Bacteriología;Entrada · Desvanecer;500;Al hacer clic
+131;2;Frasco Anatomía patológica;Entrada · Desvanecer;500;Al hacer clic
+131;3;Frasco Fisicoquímico;Entrada · Desvanecer;500;Al hacer clic
+132;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+132;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+132;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+132;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+132;5;Muestra simultánea;Entrada · Desvanecer;500;Al hacer clic
+133;1;Forma 4;Entrada · Desvanecer;500;Al hacer clic
+133;2;Flecha 5_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+133;2;Forma 7;Entrada · Desvanecer;500;Después de la anterior
+133;3;Flecha 8_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+133;3;Forma 10;Entrada · Desvanecer;500;Después de la anterior
+133;4;Exudado ruta;Entrada · Desvanecer;500;Al hacer clic
+133;5;Trasudado ruta;Entrada · Desvanecer;500;Al hacer clic
+133;6;Síndrome a etiología;Entrada · Zoom;500;Al hacer clic
+134;1;Recuadro Indicaciones generales;Entrada · Desvanecer;500;Al hacer clic
+134;2;Forma 9;Entrada · Desvanecer;500;Al hacer clic
+134;2;Flecha 10_2;Entrada · Barrido (desde arriba);600;Después de la anterior
+134;2;Forma 12;Entrada · Desvanecer;500;Después de la anterior
+134;3;Flecha 13_2;Entrada · Barrido (desde arriba);600;Al hacer clic
+134;3;Forma 15;Entrada · Desvanecer;500;Después de la anterior
+134;3;Flecha 16_2;Entrada · Barrido (desde arriba);600;Después de la anterior
+134;3;Forma 18;Entrada · Desvanecer;500;Después de la anterior
+134;4;Indicaciones absolutas;Entrada · Desvanecer;500;Al hacer clic
+134;5;Recuadro Umbral a revisar;Entrada · Desvanecer;500;Al hacer clic
+135;1;Complicación Neumotórax iatrogénico;Entrada · Desvanecer;500;Al hacer clic
+135;2;Complicación Hemotórax;Entrada · Desvanecer;500;Al hacer clic
+135;3;Complicación Hidroneumotórax;Entrada · Desvanecer;500;Al hacer clic
+135;4;Complicación Edema de reexpansión;Entrada · Desvanecer;500;Al hacer clic
+135;5;Vigilar;Entrada · Desvanecer;500;Al hacer clic
+136;1;Título;Entrada · Desvanecer;500;Al hacer clic
+136;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+136;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+136;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+136;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+136;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+136;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+136;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+137;1;Muestra pleural;Entrada · Desvanecer;500;Al hacer clic
+137;2;Muestra sangre;Entrada · Desvanecer;500;Al hacer clic
+137;3;Comparación;Entrada · Zoom;500;Al hacer clic
+137;3;Tabla encabezado;Entrada · Desvanecer;500;Después de la anterior
+137;4;Tabla fila 1;Entrada · Barrido (desde izquierda);600;Al hacer clic
+137;5;Umbral 1;Entrada · Desvanecer;500;Al hacer clic
+137;5;Umbral 1;Énfasis · Pulso;300;Después de la anterior
+137;6;Tabla fila 2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+137;7;Umbral 2;Entrada · Desvanecer;500;Al hacer clic
+137;7;Umbral 2;Énfasis · Pulso;300;Después de la anterior
+137;8;Tabla fila 3;Entrada · Barrido (desde izquierda);600;Al hacer clic
+137;8;Umbral 3;Entrada · Desvanecer;500;Después de la anterior
+137;9;Regla;Entrada · Zoom;500;Al hacer clic
+137;10;Dos criterios;Entrada · Desvanecer;500;Al hacer clic
+138;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+138;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+138;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+138;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+138;5;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Al hacer clic
+138;6;Sin alterar;Entrada · Desvanecer;500;Al hacer clic
+139;1;Recuadro Falsos exudados;Entrada · Desvanecer;500;Al hacer clic
+139;2;Recuadro Gradiente de albúmina;Entrada · Desvanecer;500;Al hacer clic
+139;3;Recuadro Otros criterios;Entrada · Desvanecer;500;Al hacer clic
+139;4;Recuadro Nunca es solo uno;Entrada · Desvanecer;500;Al hacer clic
+140;1;Título;Entrada · Desvanecer;500;Al hacer clic
+140;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+140;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+140;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+140;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+140;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+140;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+140;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+141;1;Aspecto Seroso / serohemático;Entrada · Desvanecer;500;Al hacer clic
+141;2;Aspecto Hemorrágico;Entrada · Desvanecer;500;Al hacer clic
+141;3;Aspecto Lechoso;Entrada · Desvanecer;500;Al hacer clic
+141;4;Aspecto Purulento;Entrada · Desvanecer;500;Al hacer clic
+142;1;Aspecto Negro;Entrada · Desvanecer;500;Al hacer clic
+142;2;Aspecto Amarillo verdoso;Entrada · Desvanecer;500;Al hacer clic
+142;3;Aspecto Viscoso;Entrada · Desvanecer;500;Al hacer clic
+142;4;No definitivo;Entrada · Zoom;500;Al hacer clic
+143;1;Escala glucosa;Entrada · Desvanecer;500;Al hacer clic
+143;2;Glucosa texto;Entrada · Desvanecer;500;Al hacer clic
+143;3;Escala pH;Entrada · Desvanecer;500;Al hacer clic
+143;4;pH texto;Entrada · Desvanecer;500;Al hacer clic
+144;1;Escala ADA;Entrada · Desvanecer;500;Al hacer clic
+144;2;Linfocitos dibujados;Entrada · Desvanecer;500;Al hacer clic
+144;3;Recuadro Formulación 1;Entrada · Desvanecer;500;Al hacer clic
+144;4;Recuadro Formulación 2;Entrada · Desvanecer;500;Al hacer clic
+144;5;ADA discrepancia;Entrada · Desvanecer;500;Al hacer clic
+145;1;Célula Neutrófilos;Entrada · Desvanecer;500;Al hacer clic
+145;2;Célula Linfocitos;Entrada · Desvanecer;500;Al hacer clic
+145;3;Célula Eosinófilos > 10 %;Entrada · Desvanecer;500;Al hacer clic
+145;4;Célula Eritrocitos;Entrada · Desvanecer;500;Al hacer clic
+145;5;Normal ref;Entrada · Desvanecer;500;Al hacer clic
+146;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+146;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+146;2;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+146;3;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+146;3;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Después de la anterior
+146;4;Tabla fila 5;Entrada · Barrido (desde izquierda);450;Al hacer clic
+146;4;Tabla fila 6;Entrada · Barrido (desde izquierda);450;Después de la anterior
+146;5;Tabla fila 7;Entrada · Barrido (desde izquierda);450;Al hacer clic
+147;1;Tubo citología;Entrada · Desvanecer;500;Al hacer clic
+147;1;Tubo bacterio;Entrada · Desvanecer;500;Después de la anterior
+147;2;Recuadro Citología;Entrada · Desvanecer;500;Al hacer clic
+147;3;Recuadro Si es negativa;Entrada · Desvanecer;500;Al hacer clic
+147;4;Recuadro Microbiología;Entrada · Desvanecer;500;Al hacer clic
+148;1;Título;Entrada · Desvanecer;500;Al hacer clic
+148;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+148;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+148;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+148;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+148;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+148;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+148;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+150;1;Recuadro No todas las neumonías;Entrada · Desvanecer;500;Al hacer clic
+151;1;Recuadro Mecanismo;Entrada · Desvanecer;500;Al hacer clic
+152;1;Recuadro No complicado;Entrada · Desvanecer;500;Al hacer clic
+153;1;Recuadro Complicado;Entrada · Desvanecer;500;Al hacer clic
+154;1;Recuadro Empiema;Entrada · Desvanecer;500;Al hacer clic
+155;1;Recuadro Loculación;Entrada · Desvanecer;500;Al hacer clic
+156;1;Recuadro Riesgo;Entrada · Desvanecer;500;Al hacer clic
+157;1;Recuadro Diagnóstico;Entrada · Desvanecer;500;Al hacer clic
+157;2;!!TuboEmpiema;Entrada · Desvanecer;500;Al hacer clic
+158;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+158;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+158;2;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+158;3;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+158;3;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Después de la anterior
+158;4;Tabla fila 5;Entrada · Barrido (desde izquierda);450;Al hacer clic
+158;4;Tabla fila 6;Entrada · Barrido (desde izquierda);450;Después de la anterior
+158;5;Tabla fila 7;Entrada · Barrido (desde izquierda);450;Al hacer clic
+158;6;Revisión empiema;Entrada · Desvanecer;500;Al hacer clic
+158;7;Drenar antes;Entrada · Desvanecer;500;Al hacer clic
+159;1;!!TuboDrenaje;Entrada · Barrido (desde izquierda);600;Al hacer clic
+159;1;!!SistemaDrenaje;Entrada · Desvanecer;500;Después de la anterior
+159;2;Recuadro Antibióticos;Entrada · Desvanecer;500;Al hacer clic
+159;3;Recuadro Drenaje;Entrada · Desvanecer;500;Al hacer clic
+159;4;Recuadro Objetivo;Entrada · Desvanecer;500;Al hacer clic
+159;5;Recuadro Seguimiento;Entrada · Desvanecer;500;Al hacer clic
+160;1;Título;Entrada · Desvanecer;500;Al hacer clic
+160;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+160;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+160;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+160;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+160;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+160;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+160;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+161;1;Rótulo AIRE en el espacio ple;Entrada · Desvanecer;500;Al hacer clic
+161;1;!!AirePleuralD;Énfasis · Pulso;300;Después de la anterior
+161;2;Recuadro Definición;Entrada · Desvanecer;500;Al hacer clic
+161;3;Recuadro Mecanismo;Entrada · Desvanecer;500;Al hacer clic
+161;4;Recuadro Relación con el derrame;Entrada · Desvanecer;500;Al hacer clic
+161;5;No parénquima;Entrada · Desvanecer;500;Al hacer clic
+162;1;Recuadro Estado basal;Entrada · Desvanecer;500;Al hacer clic
+163;1;Recuadro Hojas acopladas;Entrada · Desvanecer;500;Al hacer clic
+164;1;Fuga aérea;Entrada · Barrido (desde derecha);600;Al hacer clic
+164;1;!!AirePleuralD;Entrada · Desvanecer;500;Después de la anterior
+164;2;Recuadro Puerta de entrada;Entrada · Desvanecer;500;Al hacer clic
+165;1;Recuadro Separación;Entrada · Desvanecer;500;Al hacer clic
+166;1;Recuadro Presión;Entrada · Desvanecer;500;Al hacer clic
+167;1;Retracción 0;Entrada · Barrido (desde izquierda);600;Al hacer clic
+167;1;Retracción 1;Entrada · Barrido (desde izquierda);600;Después de la anterior
+167;2;Recuadro Retracción;Entrada · Desvanecer;500;Al hacer clic
+168;1;Recuadro Colapso parcial;Entrada · Desvanecer;500;Al hacer clic
+169;1;Recuadro Colapso extenso;Entrada · Desvanecer;500;Al hacer clic
+170;1;SpO2;Entrada · Zoom;500;Al hacer clic
+170;2;Recuadro Ventilación;Entrada · Desvanecer;500;Al hacer clic
+171;1;Recuadro Clínica;Entrada · Desvanecer;500;Al hacer clic
+172;1;Recuadro Espontáneo primario;Entrada · Desvanecer;500;Al hacer clic
+172;2;Recuadro Espontáneo secundario;Entrada · Desvanecer;500;Al hacer clic
+172;3;Gravedad secundario;Entrada · Desvanecer;500;Al hacer clic
+172;4;Terminología;Entrada · Desvanecer;500;Al hacer clic
+173;1;Tipo Traumático penetrante (abierto);Entrada · Desvanecer;500;Al hacer clic
+173;2;Tipo Traumático cerrado;Entrada · Desvanecer;500;Al hacer clic
+173;3;Tipo Iatrogénico;Entrada · Desvanecer;500;Al hacer clic
+174;1;Recuadro Dolor;Entrada · Desvanecer;500;Al hacer clic
+174;2;Recuadro Disnea;Entrada · Desvanecer;500;Al hacer clic
+174;3;Recuadro Tos;Entrada · Desvanecer;500;Al hacer clic
+174;4;Recuadro Dolor sin aire;Entrada · Desvanecer;500;Al hacer clic
+174;5;Disnea tipos;Entrada · Desvanecer;500;Al hacer clic
+175;1;!!Monitor;Entrada · Desvanecer;500;Al hacer clic
+175;2;Recuadro Controlar siempre;Entrada · Desvanecer;500;Al hacer clic
+175;3;Recuadro Disnea oculta;Entrada · Desvanecer;500;Al hacer clic
+175;4;Recuadro Conducta;Entrada · Desvanecer;500;Al hacer clic
+175;5;Observar;Entrada · Desvanecer;500;Al hacer clic
+176;1;Título;Entrada · Desvanecer;500;Al hacer clic
+176;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+176;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+176;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+176;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+176;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+176;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+176;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+177;1;Columna NORMAL;Entrada · Desvanecer;500;Al hacer clic
+177;2;Columna DERRAME;Entrada · Desvanecer;500;Al hacer clic
+177;3;Columna NEUMOTÓRAX;Entrada · Desvanecer;500;Al hacer clic
+177;4;Conclusión;Entrada · Desvanecer;500;Al hacer clic
+178;1;Columna NORMAL;Entrada · Desvanecer;500;Al hacer clic
+178;2;Columna DERRAME;Entrada · Desvanecer;500;Al hacer clic
+178;3;Columna NEUMOTÓRAX;Entrada · Desvanecer;500;Al hacer clic
+178;4;Conclusión;Entrada · Desvanecer;500;Al hacer clic
+179;1;Columna NORMAL;Entrada · Desvanecer;500;Al hacer clic
+179;2;Columna DERRAME;Entrada · Desvanecer;500;Al hacer clic
+179;3;Columna NEUMOTÓRAX;Entrada · Desvanecer;500;Al hacer clic
+179;4;Conclusión;Entrada · Desvanecer;500;Al hacer clic
+180;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+180;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+180;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+180;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+180;5;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Al hacer clic
+181;1;Título;Entrada · Desvanecer;500;Al hacer clic
+181;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+181;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+181;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+181;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+181;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+181;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+181;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+182;1;!!TransductorEcografico;Entrada · Desvanecer;500;Al hacer clic
+182;1;Principio 1;Entrada · Desvanecer;500;Después de la anterior
+182;2;!!PulsoUltrasonido;Entrada · Desvanecer;500;Al hacer clic
+182;2;!!PulsoUltrasonido;Trayectoria de movimiento (Δx 0.00″, Δy 2.15″);900;Después de la anterior
+182;2;Principio 2;Entrada · Desvanecer;500;Después de la anterior
+182;3;!!Eco;Entrada · Desvanecer;500;Al hacer clic
+182;3;!!Eco;Trayectoria de movimiento (Δx -1.10″, Δy -1.75″);900;Después de la anterior
+182;3;Principio 3;Entrada · Desvanecer;500;Después de la anterior
+182;4;Principio 4;Entrada · Desvanecer;500;Al hacer clic
+182;5;Principio 5;Entrada · Desvanecer;500;Al hacer clic
+183;1;Rótulo Costilla: blanca (hipe;Entrada · Desvanecer;500;Al hacer clic
+183;2;Rótulo Cono de sombra posteri;Entrada · Desvanecer;500;Al hacer clic
+183;3;Recuadro Regla;Entrada · Desvanecer;500;Al hacer clic
+183;4;Recuadro Grises;Entrada · Desvanecer;500;Al hacer clic
+184;1;!!TransductorEcografico;Entrada · Desvanecer;500;Al hacer clic
+184;2;Interfaz;Entrada · Desvanecer;500;Al hacer clic
+186;1;Rótulo PLEURA PARIETAL;Entrada · Desvanecer;500;Al hacer clic
+186;1;!!PleuraParietal;Énfasis · Pulso;300;Después de la anterior
+187;1;Rótulo PLEURA VISCERAL;Entrada · Desvanecer;500;Al hacer clic
+187;1;!!PleuraVisceral;Énfasis · Pulso;300;Después de la anterior
+188;1;!!PleuraVisceral;Trayectoria de movimiento (Δx 0.50″, Δy 0.00″);900;Al hacer clic
+188;1;!!Alveolos;Trayectoria de movimiento (Δx 0.50″, Δy 0.00″);900;Con la anterior
+188;2;!!PleuraVisceral;Trayectoria de movimiento (Δx -0.50″, Δy 0.00″);900;Al hacer clic
+188;2;!!Alveolos;Trayectoria de movimiento (Δx -0.50″, Δy 0.00″);900;Con la anterior
+189;1;!!PleuraVisceral;Trayectoria de movimiento (Δx 0.50″, Δy 0.00″);900;Al hacer clic
+189;1;!!Alveolos;Trayectoria de movimiento (Δx 0.50″, Δy 0.00″);900;Con la anterior
+189;2;!!PleuraVisceral;Trayectoria de movimiento (Δx -0.50″, Δy 0.00″);900;Al hacer clic
+189;2;!!Alveolos;Trayectoria de movimiento (Δx -0.50″, Δy 0.00″);900;Con la anterior
+189;3;Centelleo;Entrada · Desvanecer;500;Al hacer clic
+189;3;!!EcoLineaPleural;Énfasis · Pulso;300;Después de la anterior
+190;1;Recuadro Modo B;Entrada · Desvanecer;500;Al hacer clic
+190;2;Recuadro Modo M;Entrada · Desvanecer;500;Al hacer clic
+191;1;Aire interpuesto;Entrada · Desvanecer;500;Al hacer clic
+191;2;Sin contacto;Entrada · Desvanecer;500;Al hacer clic
+192;1;!!SinDeslizamiento;Entrada · Zoom;500;Al hacer clic
+192;1;Ausencia sliding;Entrada · Desvanecer;500;Después de la anterior
+192;2;No aislado;Entrada · Desvanecer;500;Al hacer clic
+193;1;Recuadro Modo B;Entrada · Desvanecer;500;Al hacer clic
+193;2;Recuadro Modo M;Entrada · Desvanecer;500;Al hacer clic
+194;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+194;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+194;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+194;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+194;5;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Al hacer clic
+195;1;Recuadro Signo de la playa;Entrada · Desvanecer;500;Al hacer clic
+195;2;Recuadro Código de barras;Entrada · Desvanecer;500;Al hacer clic
+195;3;Recuadro Punto pulmonar;Entrada · Desvanecer;500;Al hacer clic
+195;4;Líneas E;Entrada · Desvanecer;500;Al hacer clic
+196;1;Forma 3;Entrada · Desvanecer;500;Al hacer clic
+196;2;Flecha 4_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+196;2;Forma 6;Entrada · Desvanecer;500;Después de la anterior
+196;3;Flecha 7_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+196;3;Forma 9;Entrada · Desvanecer;500;Después de la anterior
+196;4;Trilogía resultado;Entrada · Desvanecer;500;Al hacer clic
+196;5;Límite;Entrada · Desvanecer;500;Al hacer clic
+196;6;Médico interpreta;Entrada · Desvanecer;500;Al hacer clic
+197;1;Título;Entrada · Desvanecer;500;Al hacer clic
+197;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+197;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+197;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+197;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+197;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+197;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+197;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+198;1;Lectura 1;Entrada · Desvanecer;500;Al hacer clic
+198;2;Lectura 2;Entrada · Desvanecer;500;Al hacer clic
+198;3;Lectura 3;Entrada · Desvanecer;500;Al hacer clic
+198;4;Lectura 4;Entrada · Desvanecer;500;Al hacer clic
+198;5;Posición;Entrada · Desvanecer;500;Al hacer clic
+200;1;!!MarcaCampo;Entrada · Zoom;500;Al hacer clic
+201;1;Dato extra;Entrada · Desvanecer;500;Al hacer clic
+202;1;Rótulo Línea pleural;Entrada · Desvanecer;500;Al hacer clic
+202;1;!!RxLineaPleuralD;Énfasis · Pulso;300;Después de la anterior
+203;1;Sin trama;Entrada · Desvanecer;500;Al hacer clic
+204;1;Dato extra;Entrada · Desvanecer;500;Al hacer clic
+205;1;Rótulo Muñón pulmonar;Entrada · Desvanecer;500;Al hacer clic
+206;1;Integrar;Entrada · Desvanecer;500;Al hacer clic
+207;1;Distancia ápice-cúpula;Entrada · Barrido (desde arriba);600;Al hacer clic
+207;1;Tabla encabezado;Entrada · Desvanecer;500;Después de la anterior
+207;1;Tabla fila 1;Entrada · Desvanecer;500;Después de la anterior
+207;2;Distancia interpleural hiliar;Entrada · Barrido (desde izquierda);600;Al hacer clic
+207;2;Tabla fila 2;Entrada · Desvanecer;500;Después de la anterior
+207;3;Discordancia;Entrada · Desvanecer;500;Al hacer clic
+207;4;Nunca imagen sola;Entrada · Zoom;500;Al hacer clic
+208;1;Grado 1;Entrada · Desvanecer;500;Al hacer clic
+208;2;Grado 2;Entrada · Desvanecer;500;Al hacer clic
+208;3;Grado 3;Entrada · Desvanecer;500;Al hacer clic
+208;4;Escalas distintas;Entrada · Desvanecer;500;Al hacer clic
+209;1;Rótulo Muñón pulmonar;Entrada · Desvanecer;500;Al hacer clic
+209;2;Rótulo Desviación traqueal;Entrada · Desvanecer;500;Al hacer clic
+209;3;Rótulo Mediastino al lado con;Entrada · Desvanecer;500;Al hacer clic
+209;4;Rótulo Seno profundo;Entrada · Desvanecer;500;Al hacer clic
+209;5;Rótulo Cúpula aplanada / inve;Entrada · Desvanecer;500;Al hacer clic
+209;6;Empuje aire;Entrada · Desvanecer;500;Al hacer clic
+209;7;Seno profundo revisar;Entrada · Desvanecer;500;Al hacer clic
+210;1;Diferencia Mediastino;Entrada · Desvanecer;500;Al hacer clic
+210;2;Diferencia Densidad;Entrada · Desvanecer;500;Al hacer clic
+210;3;Diferencia Diafragma;Entrada · Desvanecer;500;Al hacer clic
+210;4;Diferencia Pulmón;Entrada · Desvanecer;500;Al hacer clic
+211;1;Recuadro Neumotórax pequeño;Entrada · Desvanecer;500;Al hacer clic
+211;2;Recuadro Hidroneumotórax;Entrada · Desvanecer;500;Al hacer clic
+211;3;TAC3 Neumopericardio;Énfasis · Pulso;300;Al hacer clic
+211;3;Recuadro Neumopericardio;Entrada · Desvanecer;500;Después de la anterior
+212;1;Título;Entrada · Desvanecer;500;Al hacer clic
+212;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+212;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+212;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+212;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+212;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+212;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+212;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+213;1;!!PulmonDerecho;Énfasis · Pulso;300;Al hacer clic
+213;1;!!PulmonIzquierdo;Énfasis · Pulso;300;Con la anterior
+213;2;!!PulmonDerecho;Énfasis · Pulso;300;Al hacer clic
+213;2;!!PulmonIzquierdo;Énfasis · Pulso;300;Con la anterior
+214;1;Aire entra;Entrada · Barrido (desde derecha);600;Al hacer clic
+214;1;!!Cadena1;Énfasis · Pulso;300;Después de la anterior
+215;1;Entra;Entrada · Barrido (desde derecha);600;Al hacer clic
+215;1;!!Cadena2;Énfasis · Pulso;300;Después de la anterior
+215;2;Válvula cerrada;Entrada · Desvanecer;500;Al hacer clic
+215;2;No sale;Entrada · Zoom;500;Después de la anterior
+216;1;!!AirePleuralD;Énfasis · Pulso;300;Al hacer clic
+216;1;!!AirePleuralD;Énfasis · Pulso;300;Después de la anterior
+217;1;Presión positiva;Entrada · Zoom;500;Al hacer clic
+217;1;!!AgujaPresion;Énfasis · Pulso;300;Después de la anterior
+219;1;Empuje mediastino;Entrada · Barrido (desde izquierda);600;Al hacer clic
+219;1;!!Traquea;Énfasis · Pulso;300;Después de la anterior
+220;1;!!VenaCavaSup;Énfasis · Pulso;300;Al hacer clic
+220;1;!!VenaCavaInf;Énfasis · Pulso;300;Con la anterior
+221;1;Retorno VCS;Entrada · Barrido (desde arriba);600;Al hacer clic
+221;1;Retorno VCI;Entrada · Barrido (desde abajo);600;Con la anterior
+221;2;Yugulares;Entrada · Desvanecer;500;Al hacer clic
+222;1;!!Corazon;Énfasis · Pulso;300;Al hacer clic
+222;1;!!Corazon;Énfasis · Pulso;300;Después de la anterior
+223;1;!!GastoCardiaco;Entrada · Barrido (desde izquierda);600;Al hacer clic
+224;1;Hipoperfusión;Entrada · Desvanecer;500;Al hacer clic
+225;1;Emergencia;Entrada · Zoom;500;Al hacer clic
+225;1;!!Cadena12;Énfasis · Pulso;300;Después de la anterior
+226;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+226;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+226;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+226;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+226;5;No obligatorios;Entrada · Desvanecer;500;Al hacer clic
+226;6;Matidez desplazada;Entrada · Desvanecer;500;Al hacer clic
+227;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+227;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+227;2;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Después de la anterior
+227;3;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+227;3;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Después de la anterior
+227;4;Tabla fila 5;Entrada · Barrido (desde izquierda);450;Al hacer clic
+227;4;Tabla fila 6;Entrada · Barrido (desde izquierda);450;Después de la anterior
+227;5;Coexisten;Entrada · Desvanecer;500;Al hacer clic
+228;1;No esperar imagen;Entrada · Zoom;500;Al hacer clic
+228;2;Forma 4;Entrada · Desvanecer;500;Al hacer clic
+228;3;Flecha 5_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+228;3;Forma 7;Entrada · Desvanecer;500;Después de la anterior
+228;4;Flecha 8_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+228;4;Forma 10;Entrada · Desvanecer;500;Después de la anterior
+228;5;Flecha 11_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+228;5;Forma 13;Entrada · Desvanecer;500;Después de la anterior
+228;6;Sitios material;Entrada · Desvanecer;500;Al hacer clic
+228;7;Verificar sitios;Entrada · Desvanecer;500;Al hacer clic
+229;1;Título;Entrada · Desvanecer;500;Al hacer clic
+229;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+229;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+229;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+229;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+229;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+229;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+229;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+230;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+230;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+230;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+230;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+230;5;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Al hacer clic
+230;6;Monitor mini;Entrada · Desvanecer;500;Al hacer clic
+230;7;Estabilidad decide;Entrada · Desvanecer;500;Al hacer clic
+231;1;Pregunta;Entrada · Desvanecer;500;Al hacer clic
+231;2;Recuadro Objetivo;Entrada · Desvanecer;500;Al hacer clic
+232;1;Rótulos frasco;Entrada · Desvanecer;500;Al hacer clic
+232;2;Recuadro Doble tubuladura;Entrada · Desvanecer;500;Al hacer clic
+233;1;!!TuboDrenaje;Entrada · Barrido (desde izquierda);800;Al hacer clic
+233;2;Recuadro Pleurostomía;Entrada · Desvanecer;500;Al hacer clic
+234;1;!!Frasco;Énfasis · Pulso;300;Al hacer clic
+234;2;Recuadro Recipiente;Entrada · Desvanecer;500;Al hacer clic
+235;1;Rótulo Extremo bajo el agua;Entrada · Desvanecer;500;Al hacer clic
+235;1;!!SelloAgua;Énfasis · Pulso;300;Después de la anterior
+235;2;Recuadro Sello;Entrada · Desvanecer;500;Al hacer clic
+236;1;Aire 0;Trayectoria de movimiento (Δx -2.91″, Δy 0.44″);1200;Al hacer clic
+236;1;Aire 1;Trayectoria de movimiento (Δx -2.91″, Δy 0.44″);1200;Con la anterior
+236;1;Aire 2;Trayectoria de movimiento (Δx -2.91″, Δy 0.44″);1200;Con la anterior
+236;2;Recuadro Dirección;Entrada · Desvanecer;500;Al hacer clic
+237;1;!!Burbujas;Trayectoria de movimiento (Δx 0.00″, Δy -1.20″);900;Al hacer clic
+237;2;Salida exterior;Entrada · Barrido (desde abajo);600;Al hacer clic
+237;3;Recuadro Burbujeo;Entrada · Desvanecer;500;Al hacer clic
+238;1;!!ColumnaAgua;Trayectoria de movimiento (Δx 0.00″, Δy -0.30″);700;Al hacer clic
+238;2;Sin reentrada;Entrada · Zoom;500;Al hacer clic
+238;3;Recuadro Oscilación;Entrada · Desvanecer;500;Al hacer clic
+239;1;Recuadro Sin oscilación;Entrada · Desvanecer;500;Al hacer clic
+240;1;Evolución;Entrada · Barrido (desde izquierda);600;Al hacer clic
+240;2;Recuadro Burbujeo;Entrada · Desvanecer;500;Al hacer clic
+240;3;Recuadro Abocamiento;Entrada · Desvanecer;500;Al hacer clic
+240;4;Recuadro Rx de control;Entrada · Desvanecer;500;Al hacer clic
+240;5;Recuadro Retiro a tiempo;Entrada · Desvanecer;500;Al hacer clic
+240;6;Iatrogenia drenaje;Entrada · Desvanecer;500;Al hacer clic
+241;1;Título;Entrada · Desvanecer;500;Al hacer clic
+241;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+241;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+241;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+241;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+241;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+241;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+241;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+242;1;Tabla encabezado;Entrada · Desvanecer;500;Al hacer clic
+242;2;Tabla fila 1;Entrada · Barrido (desde izquierda);450;Al hacer clic
+242;3;Tabla fila 2;Entrada · Barrido (desde izquierda);450;Al hacer clic
+242;4;Tabla fila 3;Entrada · Barrido (desde izquierda);450;Al hacer clic
+242;5;Tabla fila 4;Entrada · Barrido (desde izquierda);450;Al hacer clic
+243;1;Dato tumor;Entrada · Desvanecer;500;Al hacer clic
+244;1;Recuadro Factor de riesgo;Entrada · Desvanecer;500;Al hacer clic
+245;1;Dato tumor;Entrada · Desvanecer;500;Al hacer clic
+246;1;Dato tumor;Entrada · Desvanecer;500;Al hacer clic
+247;1;Dato tumor;Entrada · Desvanecer;500;Al hacer clic
+248;1;Recuadro Dolor;Entrada · Desvanecer;500;Al hacer clic
+249;1;Recuadro Líquido;Entrada · Desvanecer;500;Al hacer clic
+250;1;Recuadro Disnea;Entrada · Desvanecer;500;Al hacer clic
+251;1;Recuadro Diagnóstico;Entrada · Desvanecer;500;Al hacer clic
+252;1;Recuadro Epidemiología;Entrada · Desvanecer;500;Al hacer clic
+252;2;Recuadro Clínica;Entrada · Desvanecer;500;Al hacer clic
+252;3;Recuadro Diagnóstico;Entrada · Desvanecer;500;Al hacer clic
+252;4;Recuadro Pronóstico;Entrada · Desvanecer;500;Al hacer clic
+253;1;Recuadro Concepto;Entrada · Desvanecer;500;Al hacer clic
+253;2;Recuadro Primarios citados;Entrada · Desvanecer;500;Al hacer clic
+253;3;Recuadro Líquido;Entrada · Desvanecer;500;Al hacer clic
+253;4;Recuadro Si la citología es negat;Entrada · Desvanecer;500;Al hacer clic
+254;1;!!RxNodulos;Entrada · Desvanecer;500;Al hacer clic
+254;2;Recuadro Imagen;Entrada · Desvanecer;500;Al hacer clic
+254;3;Recuadro Significado;Entrada · Desvanecer;500;Al hacer clic
+254;4;Recuadro Precisión;Entrada · Desvanecer;500;Al hacer clic
+255;1;Recuadro Naturaleza;Entrada · Desvanecer;500;Al hacer clic
+255;2;Recuadro Imagen;Entrada · Desvanecer;500;Al hacer clic
+255;3;Recuadro Asociaciones;Entrada · Desvanecer;500;Al hacer clic
+255;4;Recuadro Tratamiento;Entrada · Desvanecer;500;Al hacer clic
+256;1;Título;Entrada · Desvanecer;500;Al hacer clic
+256;1;Subtítulo;Entrada · Desvanecer;500;Después de la anterior
+256;2;Tema 1;Entrada · Barrido (desde izquierda);300;Al hacer clic
+256;2;Tema 2;Entrada · Barrido (desde izquierda);300;Después de la anterior
+256;2;Tema 3;Entrada · Barrido (desde izquierda);300;Después de la anterior
+256;2;Tema 4;Entrada · Barrido (desde izquierda);300;Después de la anterior
+256;2;Tema 5;Entrada · Barrido (desde izquierda);300;Después de la anterior
+256;2;Tema 6;Entrada · Barrido (desde izquierda);300;Después de la anterior
+257;1;Fila Contenido;Entrada · Desvanecer;500;Al hacer clic
+257;2;Fila Mecanismo;Entrada · Desvanecer;500;Al hacer clic
+257;3;Fila Presiones;Entrada · Desvanecer;500;Al hacer clic
+257;4;Fila Ventilación;Entrada · Desvanecer;500;Al hacer clic
+257;5;Fila Percusión;Entrada · Desvanecer;500;Al hacer clic
+257;6;Fila Auscultación;Entrada · Desvanecer;500;Al hacer clic
+257;7;Fila Radiografía;Entrada · Desvanecer;500;Al hacer clic
+257;8;Fila Emergencia;Entrada · Desvanecer;500;Al hacer clic
+257;9;Tráquea revisar;Entrada · Desvanecer;500;Al hacer clic
+258;1;Fila Mecanismo;Entrada · Desvanecer;500;Al hacer clic
+258;2;Fila Pleura;Entrada · Desvanecer;500;Al hacer clic
+258;3;Fila Proteínas pl/sér;Entrada · Desvanecer;500;Al hacer clic
+258;4;Fila LDH pl/sér;Entrada · Desvanecer;500;Al hacer clic
+258;5;Fila LDH absoluta;Entrada · Desvanecer;500;Al hacer clic
+258;6;Fila Aspecto;Entrada · Desvanecer;500;Al hacer clic
+258;7;Fila Células;Entrada · Desvanecer;500;Al hacer clic
+258;8;Fila Causas;Entrada · Desvanecer;500;Al hacer clic
+259;1;Fila Líquido;Entrada · Desvanecer;500;Al hacer clic
+259;2;Fila Gram / cultivo;Entrada · Desvanecer;500;Al hacer clic
+259;3;Fila pH;Entrada · Desvanecer;500;Al hacer clic
+259;4;Fila Glucosa;Entrada · Desvanecer;500;Al hacer clic
+259;5;Fila LDH;Entrada · Desvanecer;500;Al hacer clic
+259;6;Fila Aspecto;Entrada · Desvanecer;500;Al hacer clic
+259;7;Fila Resolución;Entrada · Desvanecer;500;Al hacer clic
+260;1;Fila Mecanismo;Entrada · Desvanecer;500;Al hacer clic
+260;2;Fila Presión pleural;Entrada · Desvanecer;500;Al hacer clic
+260;3;Fila Mediastino;Entrada · Desvanecer;500;Al hacer clic
+260;4;Fila Retorno venoso;Entrada · Desvanecer;500;Al hacer clic
+260;5;Fila Hemodinamia;Entrada · Desvanecer;500;Al hacer clic
+260;6;Fila Diagnóstico;Entrada · Desvanecer;500;Al hacer clic
+260;7;Fila Conducta;Entrada · Desvanecer;500;Al hacer clic
+261;1;Forma 3;Entrada · Desvanecer;500;Al hacer clic
+261;2;Flecha 4_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+261;2;Forma 6;Entrada · Desvanecer;500;Después de la anterior
+261;3;Flecha 7_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+261;3;Forma 9;Entrada · Desvanecer;500;Después de la anterior
+261;4;Flecha 10_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+261;4;Forma 12;Entrada · Desvanecer;500;Después de la anterior
+261;5;Flecha 13_2;Entrada · Barrido (desde izquierda);600;Al hacer clic
+261;5;Forma 15;Entrada · Desvanecer;500;Después de la anterior
+261;6;Ejemplo Derrame;Entrada · Desvanecer;500;Al hacer clic
+261;7;Ejemplo Neumotórax;Entrada · Desvanecer;500;Al hacer clic
+261;8;Ejemplo Tensión;Entrada · Desvanecer;500;Al hacer clic
+261;9;Mensajes;Entrada · Zoom;500;Al hacer clic
+262;1;Título;Entrada · Desvanecer;500;Al hacer clic
+262;1;Síntesis final;Entrada · Desvanecer;500;Después de la anterior
+262;2;Fin;Entrada · Zoom;500;Al hacer clic
